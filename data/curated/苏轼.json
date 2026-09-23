@@ -1,0 +1,61 @@
+{
+  "name": "苏轼",
+  "intro": {
+    "zh": "苏轼字子瞻，号东坡居士。二十岁出川，从此再没有长久停在一个地方：凤翔、杭州、密州、徐州、湖州、黄州、登州、颍州、扬州、定州、惠州、儋州。他自己总结：“问汝平生功业，黄州惠州儋州。”",
+    "en": "Su Shi, courtesy name Zizhan, styled Dongpo, left Sichuan at twenty and never stayed long anywhere again: Fengxiang, Hangzhou, Mizhou, Xuzhou, Huzhou, Huangzhou, Dengzhou, Yingzhou, Yangzhou, Dingzhou, Huizhou, Danzhou. His own summary: ‘My life’s achievements? Huangzhou, Huizhou, Danzhou.’"
+  },
+  "birth_note": {
+    "zh": "1037 年初（宋仁宗景祐三年腊月），苏轼生于眉州眉山。父亲苏洵二十七岁才发愤读书，母亲程氏亲自教他读《后汉书》。",
+    "en": "Su Shi was born at Meishan in Meizhou in early 1037 (the twelfth month of the Jingyou 3rd year). His father Su Xun only took up serious study at twenty-seven; his mother taught him the History of the Later Han herself."
+  },
+  "stages": [
+    {"years": [1037, 1058], "title": {"zh": "三苏进京", "en": "Three Sus go to the capital"},
+     "text": {"zh": "1056 年随父亲、弟弟苏辙出川，过剑阁、长安到汴京。次年兄弟同榜进士，主考官欧阳修读了他的文章说：“老夫当避路，放他出一头地。”不久母亲去世，父子三人回眉山守丧。",
+              "en": "In 1056 he left Sichuan with his father and brother Su Zhe, by Jiange and Chang’an to Kaifeng. The next year both brothers passed the jinshi; the examiner Ouyang Xiu said of his essay, ‘this old man should step aside and let him stand a head above.’ Their mother died soon after and the three went home to mourn."}},
+    {"years": [1059, 1060], "title": {"zh": "舟行出峡", "en": "Down the Gorges by boat"},
+     "text": {"zh": "1059 年服满，父子三人改走水路，从嘉州沿岷江、长江东下，过三峡到江陵，一路唱和，编成《南行集》，再陆行北上汴京。",
+              "en": "When mourning ended in 1059 the three travelled by water, down the Min and the Yangtze from Jiazhou through the Three Gorges to Jiangling, writing poems all the way, then overland north to Kaifeng."}},
+    {"years": [1061, 1065], "title": {"zh": "凤翔签判", "en": "First post, at Fengxiang"},
+     "text": {"zh": "1061 年制科入三等，这是宋朝开国百年来的最高等第，授凤翔府签判。在凤翔三年，他建喜雨亭，游终南山。1065 年回京，妻子王弗病逝。",
+              "en": "In 1061 he placed in the third grade of the special exam, the highest awarded in a century, and was posted to Fengxiang. There he built the Pavilion of Happy Rain and toured the Zhongnan hills. Back in Kaifeng in 1065, his wife Wang Fu died."},
+     "poems": ["喜雨亭记", "和子由渑池怀旧"]},
+    {"years": [1066, 1068], "title": {"zh": "扶柩归蜀", "en": "Taking his father home"},
+     "text": {"zh": "1066 年苏洵去世，兄弟二人扶柩沿长江西上回眉山安葬。1068 年服满离开，这是他最后一次离开家乡，此后三十多年再没回过四川。",
+              "en": "Su Xun died in 1066 and the brothers carried his coffin up the Yangtze to Meishan. When mourning ended in 1068 Su Shi left home for the last time; he never saw Sichuan again in the thirty-odd years that followed."}},
+    {"years": [1069, 1073], "title": {"zh": "通判杭州", "en": "Hangzhou, first time"},
+     "text": {"zh": "回京后正赶上王安石变法，他上书反对，自请外任，1071 年通判杭州。“水光潋滟晴方好，山色空蒙雨亦奇。欲把西湖比西子，淡妆浓抹总相宜。”",
+              "en": "He came back to find Wang Anshi’s reforms under way, argued against them, and asked for a provincial post: vice-prefect of Hangzhou in 1071. ‘I would compare West Lake to Xishi: light make-up or heavy, she is always right.’"},
+     "poems": ["饮湖上初晴后雨", "六月二十七日望湖楼醉书"]},
+    {"years": [1074, 1078], "title": {"zh": "密州、徐州", "en": "Mizhou and Xuzhou"},
+     "text": {"zh": "1074 年知密州，写下“老夫聊发少年狂”和中秋怀念弟弟的“但愿人长久，千里共婵娟”。1077 年知徐州，黄河决口，他亲自上城头指挥抗洪，保住了全城。",
+              "en": "Prefect of Mizhou from 1074, he wrote ‘this old man indulges a young man’s madness’ on a hunt, and the Mid-Autumn song to his brother: ‘May we live long, and share the moon across a thousand li.’ At Xuzhou in 1077 the Yellow River burst its banks and he directed the defence from the walls, saving the city."},
+     "poems": ["江城子·密州出猎", "水调歌头", "江城子·乙卯正月二十日夜记梦"]},
+    {"years": [1079, 1083], "title": {"zh": "乌台诗案，贬黄州", "en": "The Crow Terrace case, and Huangzhou"},
+     "text": {"zh": "1079 年调任湖州不到三个月，被御史从诗文里摘句弹劾“谤讪朝廷”，押解进京，关在御史台一百零三天，差点被杀。出狱后贬为黄州团练副使。他在城东坡地开荒种田，自号东坡居士，写下《念奴娇·赤壁怀古》和前后《赤壁赋》。",
+              "en": "Three months after moving to Huzhou in 1079, censors quoted his poems as slander against the court. He was taken to the capital and held in the Censorate, the ‘Crow Terrace’, for 103 days, nearly executed, then exiled to Huangzhou. He farmed a slope east of town, the ‘east slope’ that gave him his name, and wrote the Red Cliff poems."},
+     "poems": ["念奴娇·赤壁怀古", "赤壁赋", "定风波", "卜算子·黄州定慧院寓居作"]},
+    {"years": [1084, 1088], "title": {"zh": "离开黄州，回到朝中", "en": "Leaving Huangzhou, back at court"},
+     "text": {"zh": "1084 年改授汝州，沿江东下，游庐山写“不识庐山真面目，只缘身在此山中”，又在金陵拜访退居的王安石。1085 年神宗去世，旧党执政，他知登州仅五天就被召回，任翰林学士。",
+              "en": "Reassigned to Ruzhou in 1084, he sailed down the Yangtze, wrote on Mount Lu that ‘you can’t see its true face because you are inside it’, and visited the retired Wang Anshi at Jinling. When Emperor Shenzong died in 1085 the conservatives came to power; five days after arriving at Dengzhou he was recalled and made a Hanlin academician."},
+     "poems": ["题西林壁", "惠崇春江晚景"]},
+    {"years": [1089, 1093], "title": {"zh": "再到杭州，颍州、扬州、定州", "en": "Hangzhou again, and three more prefectures"},
+     "text": {"zh": "他又和旧党意见不合，1089 年再次出知杭州，疏浚西湖，用挖出的淤泥筑起一条长堤，就是苏堤。此后辗转颍州、扬州，1093 年知定州。",
+              "en": "At odds with the conservatives too, he went back to Hangzhou as prefect in 1089, dredged West Lake and built the Su Causeway from the silt. Then Yingzhou and Yangzhou, and in 1093 Dingzhou on the northern frontier."},
+     "poems": ["赠刘景文"]},
+    {"years": [1094, 1096], "title": {"zh": "惠州", "en": "Huizhou"},
+     "text": {"zh": "1094 年新党重新掌权，他一贬再贬，从定州一路南下，过大庾岭到惠州。“日啖荔枝三百颗，不辞长作岭南人。”陪他南下的侍妾王朝云死在惠州。",
+              "en": "When the reformers returned to power in 1094 he was demoted again and again, all the way from Dingzhou south over the Dayu Pass to Huizhou. ‘Three hundred lychees a day, and I’d gladly stay in the south forever.’ His companion Wang Zhaoyun, who had come with him, died there."},
+     "poems": ["惠州一绝", "食荔枝"]},
+    {"years": [1097, 1099], "title": {"zh": "渡海到儋州", "en": "Across the sea to Danzhou"},
+     "text": {"zh": "1097 年六十二岁再贬儋州，渡琼州海峡到海南。当时这里被视为比死刑只轻一等的流放地。他在儋州住了三年，办学讲书，海南从此出了第一个举人。",
+              "en": "At sixty-two, in 1097, he was sent across the Qiongzhou Strait to Danzhou on Hainan, an exile regarded as one step short of death. He stayed three years and taught; Hainan produced its first provincial graduate after him."}},
+    {"years": [1100, 1101], "title": {"zh": "北归，卒于常州", "en": "Heading home, dying at Changzhou"},
+     "text": {"zh": "1100 年徽宗即位，遇赦北归，“九死南荒吾不恨，兹游奇绝冠平生”。1101 年过金山寺，看到李公麟为他画的像，题下“心似已灰之木，身如不系之舟。问汝平生功业，黄州惠州儋州”。七月病逝于常州。",
+              "en": "Pardoned when Emperor Huizong came to the throne in 1100, he headed north: ‘Nine times near death in the southern wilds, and I regret nothing; the finest journey of my life.’ At Jinshan temple in 1101 he inscribed his portrait: ‘Heart like burnt-out wood, body like an unmoored boat. My life’s achievements? Huangzhou, Huizhou, Danzhou.’ He died at Changzhou that July."},
+     "poems": ["六月二十日夜渡海", "自题金山画像"]}
+  ],
+  "outro": {
+    "zh": "这条线是整张图上最长的之一，有三百多处行迹。他的弟弟苏辙把他葬在河南郏县，离两人少年时进京的那条路不远。",
+    "en": "His line is one of the longest on the whole map, with more than three hundred recorded stops. His brother Su Zhe buried him at Jiaxian in Henan, not far from the road the two had taken to the capital as young men."
+  }
+}

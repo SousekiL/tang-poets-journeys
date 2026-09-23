@@ -1,0 +1,44 @@
+{
+  "name": "王安石",
+  "intro": {
+    "zh": "王安石字介甫，号半山。他是北宋变法的主持者，两度拜相；也是唐宋八大家之一。他的线条围绕两个中心：一是江宁（今南京），他在那里长大、守丧、退隐；一是汴京，他在那里改变了整个国家。",
+    "en": "Wang Anshi, courtesy name Jiefu, styled Banshan, led the Northern Song reforms and was twice chief minister, and was one of the Eight Masters of Tang–Song prose. His line circles two centres: Jiangning (Nanjing), where he grew up, mourned and retired, and Kaifeng, where he remade the state."
+  },
+  "birth_note": {
+    "zh": "1021 年，王安石生于临江军（今江西樟树），祖籍抚州临川。父亲王益一生在各地做地方官，他从小跟着到处迁徙。",
+    "en": "Wang Anshi was born in 1021 at Linjiang (today’s Zhangshu, Jiangxi); the family came from Linchuan in Fuzhou. His father Wang Yi held local posts all over the country and the boy moved with him."
+  },
+  "stages": [
+    {"years": [1022, 1041], "title": {"zh": "随父宦游", "en": "Following his father"},
+     "text": {"zh": "童年随父亲到过四川新繁、广东韶州，后来到江宁。1039 年父亲死在江宁通判任上，家从此留在江宁。1042 年考中进士第四名。",
+              "en": "As a boy he followed his father to Xinfan in Sichuan and Shaozhou in Guangdong, and then Jiangning. His father died in office there in 1039 and the family stayed on. He placed fourth in the jinshi of 1042."}},
+    {"years": [1042, 1046], "title": {"zh": "扬州签判", "en": "First post at Yangzhou"},
+     "text": {"zh": "进士及第后任淮南节度判官，在扬州三年，时常读书通宵，顾不上梳洗。",
+              "en": "His first post was as a judge on the Huainan staff at Yangzhou, where he often read all night and forgot to wash."}},
+    {"years": [1047, 1050], "title": {"zh": "鄞县知县", "en": "Magistrate of Yin county"},
+     "text": {"zh": "1047 年知鄞县（今宁波）。他兴修水利，春荒时把官仓的粮食借给农民，秋后加少量利息归还。这就是后来青苗法的雏形。",
+              "en": "Magistrate of Yin (today’s Ningbo) from 1047, he built irrigation works and lent grain from the official granary to farmers in the spring shortage, to be repaid with modest interest after harvest: the germ of his later ‘green sprouts’ loans."},
+     "poems": ["登飞来峰"]},
+    {"years": [1051, 1056], "title": {"zh": "舒州通判", "en": "Shuzhou"},
+     "text": {"zh": "1051 年任舒州通判，在今安徽潜山。朝廷几次召他入京任馆职，他都以家贫需俸禄为由推辞，名声反而越来越大。1054 年入京任群牧判官。",
+              "en": "Vice-prefect of Shuzhou (today’s Qianshan, Anhui) from 1051, he repeatedly declined prestigious posts in the capital, saying his family needed a provincial salary, and his reputation only grew. In 1054 he went to Kaifeng to supervise the state horse herds."}},
+    {"years": [1057, 1060], "title": {"zh": "常州、江东与万言书", "en": "Changzhou, Jiangdong, and the Ten Thousand Word Memorial"},
+     "text": {"zh": "1057 年知常州，1058 年任江东提点刑狱，巡行江南东路各州县。同年入京上《言事书》，洋洋万言，系统提出改革主张，但未被采纳。1060 年奉命伴送辽国使者北上。",
+              "en": "Prefect of Changzhou in 1057 and judicial commissioner of Jiangnan East in 1058, he toured its counties, then submitted his Ten Thousand Word Memorial laying out a programme of reform, which was ignored. In 1060 he escorted a Liao embassy north."}},
+    {"years": [1061, 1067], "title": {"zh": "江宁守丧", "en": "Mourning in Jiangning"},
+     "text": {"zh": "1063 年母亲去世，他辞官回江宁守丧，在江宁讲学，门人渐多。1067 年神宗即位，起用他为江宁知府。",
+              "en": "His mother died in 1063 and he returned to Jiangning to mourn, teaching students there. When Emperor Shenzong came to the throne in 1067 he made him prefect of Jiangning."}},
+    {"years": [1068, 1076], "title": {"zh": "熙宁变法", "en": "The Xining reforms"},
+     "text": {"zh": "1068 年奉召入京，次年任参知政事，推行青苗、免役、市易、保甲等新法。反对者众多，1074 年第一次罢相回江宁；1075 年复相，从瓜洲渡江北上时写下“春风又绿江南岸，明月何时照我还”。1076 年长子去世，他再次辞相。",
+              "en": "Summoned in 1068 and made Assisting Chief Minister the next year, he pushed through the green sprouts loans, hired service, state trade and militia laws. Opposition was fierce; he resigned in 1074 and went back to Jiangning, returned to power in 1075 (crossing the Yangtze at Guazhou he wrote ‘the spring wind greens the south bank again; when will the moon light my way home?’), and resigned for good in 1076 after his eldest son died."},
+     "poems": ["泊船瓜洲", "元日"]},
+    {"years": [1077, 1086], "title": {"zh": "半山", "en": "Banshan"},
+     "text": {"zh": "退居江宁城外，在去钟山半路上筑了一座小园，叫“半山园”，常骑驴出游。1084 年苏轼路过江宁来访，两人尽释前嫌，同游钟山。1086 年新法被司马光尽数废除，他在江宁病逝。",
+              "en": "He retired outside Jiangning to a small garden halfway to Mount Zhong, called Banshan, ‘halfway up the hill’, and rode about on a donkey. In 1084 Su Shi, passing through, called on him; they put their quarrels aside and walked the mountain together. In 1086, as Sima Guang abolished his laws one by one, he died at Jiangning."},
+     "poems": ["梅花", "北陂杏花"]}
+  ],
+  "outro": {
+    "zh": "“墙角数枝梅，凌寒独自开。”他去世那年，新法几乎全被推翻；几年后又被恢复，北宋的党争一直延续到亡国。",
+    "en": "‘A few sprigs of plum in the corner of the wall, blooming alone in the cold.’ In the year he died his reforms were almost all overturned; a few years later they were restored, and the factional fighting went on until the dynasty fell."
+  }
+}

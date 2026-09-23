@@ -1,0 +1,48 @@
+{
+  "name": "白居易",
+  "intro": {
+    "zh": "白居易字乐天，号香山居士。他写诗讲究“老妪能解”，一生也算顺遂：做过谏官，贬过江州，当过杭州、苏州的父母官，最后在洛阳安享晚年，活到七十五岁。",
+    "en": "Bai Juyi, courtesy name Letian, called himself the Layman of Fragrant Hill. He wanted poems an old village woman could understand, and his life went comparatively well: remonstrance official, exile at Jiangzhou, governor of Hangzhou and Suzhou, and a long, comfortable old age in Luoyang. He lived to 75."
+  },
+  "birth_note": {
+    "zh": "772 年，白居易生于河南新郑。据说他出生六七个月就能认出“之”“无”二字。童年跟着做官的父亲迁徙，后来家搬到徐州符离。",
+    "en": "Bai Juyi was born in 772 at Xinzheng in Henan. The story goes that at six or seven months he could already pick out two written characters. He moved about with his father’s postings as a child, and the family later settled at Fuli near Xuzhou."
+  },
+  "stages": [
+    {"years": [773, 799], "title": {"zh": "符离少年，避乱江南", "en": "A boyhood in Fuli, refuge in the south"},
+     "text": {"zh": "藩镇战乱时，十一二岁的他被送到江南避难，在苏州、杭州一带住过几年。约十六岁写下“野火烧不尽，春风吹又生”。794 年父亲死于襄阳任上，家境从此困窘。",
+              "en": "When the provincial wars broke out he was sent south at eleven or twelve and lived for a few years around Suzhou and Hangzhou. At about sixteen he wrote ‘wildfire cannot burn it out; spring wind brings it back.’ His father died in office at Xiangyang in 794 and the family grew poor."},
+     "poems": ["赋得古原草送别"]},
+    {"years": [800, 806], "title": {"zh": "长安：十七人中最少年", "en": "Chang’an: youngest of seventeen"},
+     "text": {"zh": "800 年进士及第，“慈恩塔下题名处，十七人中最少年”。803 年与元稹同登书判拔萃科，任校书郎，两人从此结为终身挚友。806 年任盩厔县尉，写下《长恨歌》。",
+              "en": "He passed the jinshi in 800, ‘the youngest of the seventeen names under the Ci’en pagoda.’ In 803 he and Yuan Zhen passed the placement exam together and became lifelong friends. As sheriff of Zhouzhi in 806 he wrote the Song of Everlasting Sorrow."},
+     "poems": ["长恨歌"]},
+    {"years": [807, 814], "title": {"zh": "左拾遗与新乐府", "en": "Remonstrance and the New Music Bureau poems"},
+     "text": {"zh": "任翰林学士、左拾遗，屡次直言进谏，写《秦中吟》《新乐府》，“文章合为时而著，歌诗合为事而作”。811 年母亲去世，他回下邽渭村守丧三年。",
+              "en": "As Hanlin scholar and Reminder of the Left he spoke bluntly at court and wrote the Qin Laments and New Music Bureau ballads, arguing that ‘writing should serve its time.’ His mother died in 811 and he spent three years in mourning at Xiagui."},
+     "poems": ["卖炭翁", "观刈麦", "轻肥"]},
+    {"years": [815, 818], "title": {"zh": "江州司马青衫湿", "en": "Demoted to Jiangzhou"},
+     "text": {"zh": "815 年宰相武元衡被刺，他第一个上书请求缉凶，被指越职言事，贬为江州司马。第二年秋天在浔阳江头送客，听见琵琶声，写下“同是天涯沦落人，相逢何必曾相识”。他在庐山香炉峰下盖了草堂。",
+              "en": "When the chief minister Wu Yuanheng was assassinated in 815, Bai was the first to demand the killers be caught, was accused of overstepping his office, and was sent to Jiangzhou. The next autumn, seeing a guest off on the river, he heard a pipa player and wrote: ‘We are both adrift at the ends of the earth.’ He built a thatched hall under Incense Burner Peak on Mount Lu."},
+     "poems": ["琵琶行", "大林寺桃花", "与元微之书"]},
+    {"years": [819, 821], "title": {"zh": "忠州刺史，回朝", "en": "Zhongzhou, and back to court"},
+     "text": {"zh": "819 年升忠州刺史，溯江入峡，途中在夷陵与元稹意外相遇，同游三游洞。820 年穆宗即位，召他回京，任中书舍人。",
+              "en": "Made prefect of Zhongzhou in 819, he sailed up through the Gorges and by chance met Yuan Zhen at Yiling; they explored the Three Travellers’ Cave together. When a new emperor came to the throne in 820 he was recalled as a Secretariat drafter."}},
+    {"years": [822, 824], "title": {"zh": "杭州刺史", "en": "Governor of Hangzhou"},
+     "text": {"zh": "朝中党争激烈，他自请外任，822 年到杭州。在任三年，修钱塘湖堤、蓄水灌田，又疏浚六井。离任时写“未能抛得杭州去，一半勾留是此湖”。",
+              "en": "Tired of factional fights he asked for a provincial post and arrived in Hangzhou in 822. In three years he built up the West Lake embankment for irrigation and dredged the city’s six wells. Leaving, he wrote that half of what held him there was the lake."},
+     "poems": ["钱塘湖春行", "忆江南", "春题湖上"]},
+    {"years": [825, 826], "title": {"zh": "苏州刺史", "en": "Governor of Suzhou"},
+     "text": {"zh": "825 年任苏州刺史，开凿从阊门到虎丘的山塘河，后人称“七里山塘”。次年因病卸任，在扬州与刘禹锡初次相逢，两人从此唱和不断，并称“刘白”。",
+              "en": "Prefect of Suzhou from 825, he cut the Shantang canal from Chang Gate to Tiger Hill. He left the next year through illness, and at Yangzhou met Liu Yuxi for the first time; they exchanged poems for the rest of their lives."},
+     "poems": ["醉赠刘二十八使君"]},
+    {"years": [827, 846], "title": {"zh": "洛阳履道里，香山居士", "en": "Old age in Luoyang"},
+     "text": {"zh": "829 年起以太子宾客分司东都，此后基本定居洛阳履道里，与刘禹锡、裴度往来，捐钱修香山寺，自号香山居士。842 年以刑部尚书致仕，846 年去世，葬在龙门香山。",
+              "en": "From 829 he held a sinecure in the eastern capital and settled for good in Luoyang’s Lüdao ward, spending time with Liu Yuxi and Pei Du, paying to restore the Xiangshan temple, and naming himself after it. He retired in 842 as Minister of Justice, died in 846, and was buried at Xiangshan by the Longmen caves."},
+     "poems": ["问刘十九", "池上"]}
+  ],
+  "outro": {
+    "zh": "他生前亲手编定自己的诗文集，抄成五部分藏各地寺庙，所以留下来的诗比任何一位唐代诗人都多，将近三千首。",
+    "en": "He edited his own collected works and deposited five copies in temples around the country, which is why nearly three thousand of his poems survive, more than any other Tang poet."
+  }
+}

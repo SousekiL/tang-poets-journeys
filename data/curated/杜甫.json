@@ -1,0 +1,123 @@
+{
+  "name": "杜甫",
+  "intro": {
+    "zh": "杜甫字子美，自号少陵野老。前半生在洛阳、长安之间求官，后半生被安史之乱推着走：陕北、陇右、蜀中、夔州、湖湘，一路向西、向南，再也没能回到洛阳。",
+    "en": "Du Fu, courtesy name Zimei, called himself the Old Rustic of Shaoling. The first half of his life was spent chasing office between Luoyang and Chang’an; the second was driven by the An Lushan rebellion, west and south through northern Shaanxi, Gansu, Sichuan, Kuizhou and Hunan. He never made it back to Luoyang."
+  },
+  "birth_note": {
+    "zh": "712 年，杜甫生于河南巩县（今巩义）。远祖是西晋名将杜预，祖父是初唐诗人杜审言。母亲早逝，他幼年被寄养在洛阳的二姑母家，一场大病几乎丧命。",
+    "en": "Du Fu was born in 712 in Gong county, Henan (today’s Gongyi). His distant ancestor was the Western Jin general Du Yu; his grandfather was the early Tang poet Du Shenyan. His mother died young and he was raised by an aunt in Luoyang, where he nearly died of illness as a child."
+  },
+  "stages": [
+    {
+      "years": [713, 729],
+      "title": {"zh": "洛阳少年", "en": "Growing up in Luoyang"},
+      "text": {
+        "zh": "童年在洛阳和郾城之间度过。他在郾城看过公孙大娘舞《剑器》，五十年后还写诗追忆；十四五岁就出入洛阳的文人圈，在岐王李范、崔涤家听过李龟年唱歌。",
+        "en": "He spent his childhood between Luoyang and Yancheng, where he watched Lady Gongsun’s famous sword dance, a memory he wrote about fifty years later. By fourteen he moved in Luoyang’s literary circles and heard the singer Li Guinian at the homes of Prince Qi and Cui Di."
+      }
+    },
+    {
+      "years": [730, 734],
+      "title": {"zh": "漫游吴越", "en": "Travels in Wu and Yue"},
+      "text": {
+        "zh": "十九岁先游晋南郇瑕，二十岁南下江南，在金陵、姑苏、会稽、剡溪一带漫游了四五年。后来他说：“剡溪蕴秀异，欲罢不能忘。”",
+        "en": "At nineteen he visited southern Shanxi; at twenty he went down to the Yangtze delta and spent four or five years around Jinling, Suzhou, Kuaiji and the Shan stream, a landscape he later said he could never forget."
+      }
+    },
+    {
+      "years": [735, 740],
+      "title": {"zh": "落第之后，裘马清狂", "en": "Failing the exam, roaming Qi and Zhao"},
+      "text": {
+        "zh": "735 年回洛阳应进士试，落第。第二年去兖州看望任司马的父亲，在齐赵之间“放荡齐赵间，裘马颇清狂”，登泰山写下《望岳》：“会当凌绝顶，一览众山小。”",
+        "en": "He sat the jinshi exam in Luoyang in 735 and failed. The next year he visited his father, an official at Yanzhou, and spent carefree years riding through Qi and Zhao. Gazing at Mount Tai he wrote: ‘One day I will stand on its peak and see all other mountains small.’"
+      },
+      "poems": ["望岳", "登兖州城楼"]
+    },
+    {
+      "years": [741, 745],
+      "title": {"zh": "遇见李白", "en": "Meeting Li Bai"},
+      "text": {
+        "zh": "741 年在洛阳东首阳山下筑陆浑庄，娶司农少卿杨怡之女。744 年在洛阳遇见刚被“赐金放还”的李白，两人与高适同游梁宋；次年在济南陪李邕宴于历下亭，又在兖州与李白同访隐士，最后在石门分别。",
+        "en": "In 741 he built a house near Mount Shouyang east of Luoyang and married. In 744 he met Li Bai, just dismissed from court, and the two of them toured Liang and Song with Gao Shi. The following year he feasted with Li Yong at Jinan, visited a recluse with Li Bai at Yanzhou, and said goodbye to him at Shimen."
+      },
+      "poems": ["赠李白", "陪李北海宴历下亭"]
+    },
+    {
+      "years": [746, 755],
+      "title": {"zh": "困守长安十年", "en": "Ten lean years in Chang’an"},
+      "text": {
+        "zh": "746 年到长安求官。747 年应玄宗诏试，李林甫一个不取，还上表称“野无遗贤”。751 年献《三大礼赋》，只得到待制集贤院的虚名。“朝扣富儿门，暮随肥马尘”。755 年冬赴奉先探家，幼子已经饿死，写下“朱门酒肉臭，路有冻死骨”。",
+        "en": "He came to Chang’an in 746 to seek office. In the special exam of 747 the chief minister Li Linfu passed nobody and reported that ‘no talent is left in the wilds’. His three rhapsodies of 751 earned him only a waiting post. ‘Mornings I knock at rich men’s gates; evenings I follow the dust of fat horses.’ Visiting his family at Fengxian in winter 755 he found his youngest son had starved: ‘Behind red gates wine and meat go bad; on the road lie the bones of the frozen.’"
+      },
+      "poems": ["兵车行", "丽人行", "自京赴奉先县咏怀五百字"]
+    },
+    {
+      "years": [756, 757],
+      "title": {"zh": "安史之乱：陷贼与北征", "en": "The rebellion: captured, escaped"},
+      "text": {
+        "zh": "安禄山攻破潼关，他带家人经白水逃到鄜州羌村。只身去投奔新即位的肃宗，半路被叛军捉回长安，写下《月夜》《春望》：“国破山河在，城春草木深。”757 年四月冒死逃到凤翔，拜左拾遗；因上疏救房琯触怒肃宗，被放回鄜州探亲，作《北征》《羌村》。",
+        "en": "When the rebels broke through Tongguan he fled with his family through Baishui to Qiang village near Fuzhou. Setting out alone to join the new emperor, he was captured and taken back to occupied Chang’an: ‘The state is broken, the hills and rivers remain.’ In the fourth month of 757 he escaped to the court at Fengxiang and was made Reminder of the Left, but angered the emperor by defending Fang Guan and was sent home to Fuzhou."
+      },
+      "poems": ["月夜", "春望", "羌村", "北征"]
+    },
+    {
+      "years": [758, 758],
+      "title": {"zh": "收京，然后被贬华州", "en": "Back in the capital, then demoted"},
+      "text": {
+        "zh": "官军收复长安，他随驾还京，在门下省与贾至、王维、岑参唱和早朝诗。好景不长，六月因房琯案牵连，贬为华州司功参军；冬天回洛阳探视旧居。",
+        "en": "With Chang’an retaken he returned with the court and traded dawn-audience poems with Jia Zhi, Wang Wei and Cen Shen. By the sixth month the Fang Guan affair caught up with him and he was demoted to a post in Huazhou; that winter he went back to see his old home at Luoyang."
+      },
+      "poems": ["曲江", "奉和贾至舍人早朝大明宫"]
+    },
+    {
+      "years": [759, 759],
+      "title": {"zh": "三吏三别，弃官西行", "en": "The Three Officers, and leaving for the west"},
+      "text": {
+        "zh": "759 年春从洛阳回华州，一路看到官府抓丁，写成《三吏》《三别》。关中大饥，秋天他辞官西去秦州，又转同谷，拾橡栗充饥；年底翻越蜀道，经剑门，到达成都。这一年他走了四千多里。",
+        "en": "Returning from Luoyang to Huazhou in spring 759 he watched officials press-gang villagers and wrote the Three Officers and Three Partings. With famine in the Guanzhong plain he resigned that autumn and went west to Qinzhou, then Tonggu, living on acorns, and at the end of the year crossed the Shu roads through Jianmen to Chengdu: more than four thousand li in one year."
+      },
+      "poems": ["石壕吏", "新安吏", "月夜忆舍弟", "剑门"]
+    },
+    {
+      "years": [760, 761],
+      "title": {"zh": "浣花溪草堂", "en": "The thatched hut at Huanhua Stream"},
+      "text": {
+        "zh": "在友人资助下，他在成都西郊浣花溪畔盖起草堂，过了几年相对安稳的日子。“好雨知时节，当春乃发生。”一场秋风掀了屋顶，他却想着“安得广厦千万间，大庇天下寒士俱欢颜”。",
+        "en": "With friends’ help he built a thatched hut by the Huanhua Stream west of Chengdu and had a few relatively settled years. ‘A good rain knows its season.’ When an autumn gale tore off his roof, he wished for ‘ten thousand great mansions to shelter all the poor scholars under heaven’."
+      },
+      "poems": ["春夜喜雨", "茅屋为秋风所破歌", "蜀相"]
+    },
+    {
+      "years": [762, 764],
+      "title": {"zh": "梓州、阆州避乱", "en": "Refuge in Zizhou and Langzhou"},
+      "text": {
+        "zh": "762 年送严武还朝到绵州，恰逢徐知道在成都作乱，只好流寓梓州、阆州。763 年在梓州听到官军收复河南河北，“漫卷诗书喜欲狂”。764 年严武再镇蜀，他回到草堂，入严武幕府，授检校工部员外郎，后人因此称他“杜工部”。",
+        "en": "Seeing his patron Yan Wu off at Mianzhou in 762, he was cut off by Xu Zhidao’s mutiny in Chengdu and drifted between Zizhou and Langzhou. News that the imperial armies had retaken Henan and Hebei reached him in 763: ‘I roll up my books, mad with joy.’ When Yan Wu returned in 764 Du Fu rejoined him and was given the title Vice Director of Public Works, hence ‘Du Gongbu’."
+      },
+      "poems": ["闻官军收河南河北", "登楼"]
+    },
+    {
+      "years": [765, 767],
+      "title": {"zh": "出蜀，夔州两年", "en": "Leaving Sichuan, two years at Kuizhou"},
+      "text": {
+        "zh": "765 年严武病逝，他失去依靠，携家乘船东下，经嘉州、戎州、渝州、忠州到云安，再到夔州住了近两年。这是他创作最密集的时期，《秋兴八首》《登高》都写在这里：“万里悲秋常作客，百年多病独登台。”",
+        "en": "Yan Wu died in 765 and Du Fu, without a patron, took his family down the Yangtze by boat through Jiazhou, Rongzhou, Yuzhou and Zhongzhou to Yun’an, then spent nearly two years at Kuizhou. It was his most prolific time: Autumn Meditations and Climbing High were written here. ‘Ten thousand li from home, a perpetual guest in sad autumn.’"
+      },
+      "poems": ["旅夜书怀", "秋兴八首", "登高"]
+    },
+    {
+      "years": [768, 770],
+      "title": {"zh": "漂泊湖湘，死在船上", "en": "Adrift in Hunan"},
+      "text": {
+        "zh": "768 年出峡，经江陵、公安到岳阳，登岳阳楼：“亲朋无一字，老病有孤舟。”此后两年他几乎都住在船上，往来潭州、衡州之间。770 年潭州兵乱，他再度南逃；冬天在从潭州去岳阳的船上病逝，终年五十九岁。",
+        "en": "Out of the Gorges in 768 he went by Jiangling and Gong’an to Yueyang: ‘No word from family or friends; old and sick, a lonely boat.’ For two years he lived mostly on the boat between Tanzhou and Hengzhou. Fleeing a mutiny at Tanzhou in 770, he died that winter on the boat between Tanzhou and Yueyang, aged fifty-nine."
+      },
+      "poems": ["登岳阳楼", "江南逢李龟年"]
+    }
+  ],
+  "outro": {
+    "zh": "他死后四十多年，孙子杜嗣业才把他的灵柩从岳阳迁回偃师，葬在首阳山下，离出生的巩县不远。这条线最后又绕回了起点附近。",
+    "en": "More than forty years after his death his grandson Du Siye finally moved his coffin from Yueyang back to Yanshi, below Mount Shouyang, not far from Gong county where he was born. The line ends near where it began."
+  }
+}

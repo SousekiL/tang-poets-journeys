@@ -1,0 +1,6 @@
+.DS_Store
+data/raw/
+data/tmp/
+__pycache__/
+node_modules/
+.venv/

@@ -1,0 +1,47 @@
+{
+  "name": "韩愈",
+  "intro": {
+    "zh": "韩愈字退之，世称韩昌黎、韩文公。他是古文运动的领袖，“文起八代之衰”；也是个一再因为说真话而被贬的人，向南一直贬到潮州。",
+    "en": "Han Yu, courtesy name Tuizhi, known as Han Changli, led the Ancient Prose movement that ‘revived writing after eight dynasties of decline.’ He was also a man repeatedly exiled for saying what he thought, once as far south as Chaozhou."
+  },
+  "birth_note": {
+    "zh": "768 年，韩愈出生，祖籍河阳（今河南孟州），郡望昌黎。三岁时父亲去世，由兄长韩会和嫂子郑氏抚养。数据把出生地标在长安。",
+    "en": "Han Yu was born in 768; the family came from Heyang (today’s Mengzhou in Henan) and claimed Changli as its ancestral seat. His father died when he was three and he was raised by his elder brother Han Hui and sister-in-law. The data places his birth at Chang’an."
+  },
+  "stages": [
+    {"years": [770, 786], "title": {"zh": "孤儿，随兄漂泊", "en": "An orphan following his brother"},
+     "text": {"zh": "777 年兄长韩会被贬韶州，九岁的他跟着去了岭南。不久韩会病死，嫂子带着他扶柩回河阳。此后为避战乱，又随家寄居宣城。",
+              "en": "When his brother was exiled to Shaozhou in 777, the nine-year-old went with him to the far south. Han Hui soon died and his sister-in-law took the coffin and the boy back to Heyang. Later, fleeing war, the family lived at Xuancheng."}},
+    {"years": [787, 795], "title": {"zh": "长安四试", "en": "Four tries in Chang’an"},
+     "text": {"zh": "十九岁到长安应进士试，连考三次落第，792 年第四次才考中。此后吏部的博学宏词试又三次不中，他三次上书宰相自荐，都没有回音。",
+              "en": "He came to Chang’an at nineteen and failed the jinshi three times before passing on the fourth attempt in 792. He then failed the placement exam three times and wrote three letters to the chief ministers asking for a post. None was answered."},
+     "poems": ["上宰相书"]},
+    {"years": [796, 802], "title": {"zh": "汴州、徐州幕府与四门博士", "en": "Staff posts, then the Imperial Academy"},
+     "text": {"zh": "796 年入汴州董晋幕，799 年汴州兵变，投奔徐州张建封。801 年回京任四门博士，写《师说》：“师者，所以传道受业解惑也。”",
+              "en": "He joined Dong Jin’s staff at Bianzhou in 796; after a mutiny there in 799 he moved to Zhang Jianfeng at Xuzhou. Back in the capital in 801 as an Academy instructor he wrote On Teachers: ‘A teacher is one who transmits the Way, imparts learning and resolves doubts.’"},
+     "poems": ["师说"]},
+    {"years": [803, 806], "title": {"zh": "阳山之贬", "en": "First exile, to Yangshan"},
+     "text": {"zh": "803 年任监察御史，关中大旱，他上疏请求减免赋税，被贬为连州阳山令。805 年遇赦，在郴州等候任命，改江陵府法曹参军；806 年召回长安任国子博士。",
+              "en": "As a censor in 803, during a drought, he asked for tax relief and was demoted to magistrate of Yangshan in the far south. Pardoned in 805, he waited at Chenzhou, was posted to Jiangling, and in 806 was recalled as an Academy professor."}},
+    {"years": [807, 816], "title": {"zh": "洛阳、长安之间", "en": "Between Luoyang and Chang’an"},
+     "text": {"zh": "十年间在东都洛阳和长安之间调任，官运起伏。813 年写《进学解》自嘲：“头童齿豁，竟死何裨？”宰相读后反倒提拔他做史馆修撰。",
+              "en": "For a decade his posts shifted between Luoyang and Chang’an. In 813 he mocked himself in Explanation of Progress in Learning (‘bald, teeth gone, what use am I?’), and the chief minister, amused, promoted him to the History Office."},
+     "poems": ["进学解"]},
+    {"years": [817, 818], "title": {"zh": "随裴度平淮西", "en": "Campaign against Huaixi"},
+     "text": {"zh": "817 年以行军司马身份随宰相裴度出征淮西，建议李愬奇袭蔡州，生擒吴元济。战后奉命撰《平淮西碑》，升刑部侍郎。",
+              "en": "In 817 he served as marshal under the chief minister Pei Du against the Huaixi rebels, and the surprise attack on Caizhou captured their leader. He wrote the victory stele and was promoted to Vice Minister of Justice."},
+     "poems": ["平淮西碑"]},
+    {"years": [819, 819], "title": {"zh": "夕贬潮州路八千", "en": "Banished to Chaozhou"},
+     "text": {"zh": "819 年宪宗迎佛骨入宫，韩愈上《论佛骨表》激烈反对，几乎被处死，贬为潮州刺史。行至蓝关，大雪封山，他写给侄孙韩湘：“一封朝奏九重天，夕贬潮州路八千。”到潮州后，他驱鳄鱼、兴学校，潮州山水从此改姓“韩”。",
+              "en": "When the emperor brought a Buddha relic into the palace in 819, Han Yu’s memorial against it nearly got him executed; he was banished to Chaozhou. Snowbound at Languan Pass he wrote: ‘One memorial at dawn to the ninefold heavens; by dusk, exiled eight thousand li to Chaozhou.’ In Chaozhou he drove off crocodiles and founded schools, and the local river and hill still bear his name."},
+     "poems": ["左迁至蓝关示侄孙湘", "论佛骨表", "祭鳄鱼文"]},
+    {"years": [820, 825], "title": {"zh": "袁州与晚年", "en": "Yuanzhou and last years"},
+     "text": {"zh": "820 年移袁州，赎出被抵押为奴的百姓。穆宗即位后召回，任国子祭酒。822 年只身前往叛乱的镇州宣慰，凭口舌说服王廷凑。晚年任吏部侍郎，824 年底病逝于长安。",
+              "en": "Moved to Yuanzhou in 820, he freed people who had been pawned into servitude. A new emperor recalled him as head of the Academy. In 822 he went alone to the rebellious Zhenzhou and talked its commander down. He ended as Vice Minister of Personnel and died in Chang’an at the end of 824."},
+     "poems": ["早春呈水部张十八员外"]}
+  ],
+  "outro": {
+    "zh": "“天街小雨润如酥，草色遥看近却无。”这首写长安早春的小诗，是他去世前一年写的。",
+    "en": "‘Fine rain on the imperial avenue, soft as cream; the grass is green from afar, gone when you look close.’ He wrote this little poem of early spring in Chang’an the year before he died."
+  }
+}

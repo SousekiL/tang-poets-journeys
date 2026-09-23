@@ -1,0 +1,168 @@
+:root {
+  --paper: #f2ecdf;
+  --paper-2: #f7f3ea;
+  --land-cn: #e4d9bf;
+  --land: #ebe5d6;
+  --border: #8a7f6a;
+  --prov: #cdbfa4;
+  --coast: #b9ac92;
+  --ink: #1f1b16;
+  --soft: #5a5246;
+  --muted: #8b8272;
+  --hair: #d6cdb8;
+  --red: #7a1f35;
+  --blue: #1f3358;
+  --green: #1e5a3c;
+  --gold: #9a7b2f;
+  --plum: #5b3a6b;
+  --serif: "Songti SC", "Noto Serif SC", "Source Han Serif SC", "STSong", Georgia, serif;
+  --sans: "PingFang SC", "Noto Sans SC", "Hiragino Sans GB", system-ui, sans-serif;
+  --mono: "Roboto Mono", ui-monospace, SFMono-Regular, monospace;
+  --bar: 56px;
+  --card: 380px;
+  --gut: clamp(16px, 3.5vw, 48px);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: auto; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font: 16px/1.7 var(--sans);
+  -webkit-font-smoothing: antialiased;
+}
+button, input, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--red); outline-offset: 2px; }
+
+/* ---------- top bar ---------- */
+.bar {
+  position: fixed; inset: 0 0 auto 0; z-index: 20; height: var(--bar);
+  display: flex; align-items: center; justify-content: space-between; gap: 16px;
+  padding: 0 var(--gut);
+  background: color-mix(in srgb, var(--paper) 88%, transparent);
+  backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--hair);
+}
+.brand { display: flex; align-items: baseline; gap: 10px; color: var(--ink); text-decoration: none; white-space: nowrap; }
+.brand-zh { font: 600 22px/1 var(--serif); letter-spacing: .12em; }
+.brand-sub { font: 12px/1 var(--mono); color: var(--soft); letter-spacing: .04em; }
+.controls { display: flex; align-items: center; gap: 14px; font-family: var(--mono); font-size: 13px; }
+.ctl { position: relative; display: flex; align-items: center; gap: 8px; }
+.ctl-label { color: var(--muted); font-size: 12px; }
+select, #poet-input {
+  height: 34px; min-height: 34px; border: 1px solid var(--hair); background: var(--paper-2);
+  border-radius: 2px; padding: 0 10px; font-family: var(--mono); font-size: 13px;
+}
+select { padding-right: 24px; appearance: none; background-image: linear-gradient(45deg, transparent 50%, var(--soft) 50%), linear-gradient(135deg, var(--soft) 50%, transparent 50%); background-position: calc(100% - 13px) 15px, calc(100% - 9px) 15px; background-size: 4px 4px; background-repeat: no-repeat; cursor: pointer; }
+#poet-input { width: 180px; }
+#poet-list {
+  position: absolute; top: 40px; right: 0; width: 260px; max-height: 60vh; overflow: auto;
+  margin: 0; padding: 4px 0; list-style: none; background: var(--paper-2);
+  border: 1px solid var(--hair); box-shadow: 0 8px 24px rgba(60, 45, 20, .12);
+}
+#poet-list li { display: flex; justify-content: space-between; gap: 10px; padding: 7px 12px; cursor: pointer; }
+#poet-list li[aria-selected="true"], #poet-list li:hover { background: var(--land-cn); }
+#poet-list .nm { font-family: var(--serif); font-size: 15px; }
+#poet-list .meta { color: var(--muted); font-size: 11px; }
+#poet-list .star { color: var(--red); }
+.lang {
+  height: 34px; min-width: 44px; border: 1px solid var(--ink); background: transparent; border-radius: 2px;
+  cursor: pointer; font-family: var(--mono); font-size: 12px; letter-spacing: .06em;
+}
+.lang:hover { background: var(--ink); color: var(--paper); }
+
+/* ---------- scrollytelling ---------- */
+.scrolly { position: relative; }
+.stage {
+  position: sticky; top: 0; height: 100svh; overflow: hidden; background: var(--paper);
+}
+#map, #routes, #overlay { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+#routes, #overlay { pointer-events: none; }
+.sea { fill: var(--paper); }
+.land { fill: var(--land); stroke: none; }
+.land.cn { fill: var(--land-cn); }
+.border { fill: none; stroke: var(--border); stroke-width: .8; vector-effect: non-scaling-stroke; stroke-linejoin: round; }
+.coast { fill: none; stroke: var(--coast); stroke-width: .6; vector-effect: non-scaling-stroke; }
+.prov { fill: none; stroke: var(--prov); stroke-width: .5; stroke-dasharray: 1.5 2.5; vector-effect: non-scaling-stroke; transition: opacity .5s; }
+.country-label { font: 11px var(--mono); fill: var(--muted); letter-spacing: .18em; text-anchor: middle; text-transform: uppercase; }
+
+.route { fill: none; stroke-linecap: round; stroke-linejoin: round; }
+.route.ghost { stroke-opacity: .18; stroke-dasharray: 2 4; }
+.stop { stroke: var(--paper); stroke-width: 1.2; }
+.stop.future { fill: var(--paper) !important; stroke-width: 1; }
+.halo { fill: none; stroke-width: 1; opacity: .35; }
+.place-label { font: 13px var(--serif); fill: var(--ink); paint-order: stroke; stroke: var(--paper); stroke-width: 3.5px; stroke-linejoin: round; }
+.place-label.small { font-size: 11px; fill: var(--soft); }
+.place-label .yr { font: 10px var(--mono); fill: var(--muted); }
+.poet-tag { font: 600 14px var(--serif); paint-order: stroke; stroke: var(--paper); stroke-width: 4px; }
+.alt-link { fill: none; stroke-dasharray: 3 3; stroke-width: 1; opacity: .55; }
+.alt-birth { fill: none; stroke-dasharray: 2.5 2.5; stroke-width: 1.4; }
+
+.scale { position: absolute; right: var(--gut); bottom: 18px; font: 11px var(--mono); color: var(--muted); }
+.scale i { display: block; height: 5px; border: 1px solid var(--muted); border-top: 0; margin-bottom: 3px; }
+
+.steps { position: relative; margin-top: -100svh; z-index: 5; pointer-events: none; }
+.step {
+  min-height: 100svh; display: flex; align-items: center;
+  padding: calc(var(--bar) + 24px) var(--gut) 24px;
+}
+.step:first-child { min-height: 100svh; }
+.step:last-child { min-height: 110svh; }
+.card {
+  pointer-events: auto; width: var(--card); max-width: 100%;
+  background: color-mix(in srgb, var(--paper-2) 94%, transparent);
+  border: 1px solid var(--hair); padding: 22px 24px;
+  box-shadow: 0 1px 0 rgba(255,255,255,.6) inset, 0 10px 30px rgba(70, 52, 20, .08);
+}
+.kicker { font: 11px/1.4 var(--mono); color: var(--muted); letter-spacing: .08em; text-transform: uppercase; margin: 0 0 10px; }
+.card h2 { font: 600 30px/1.2 var(--serif); margin: 0 0 6px; letter-spacing: .04em; }
+.card h3 { font: 600 21px/1.35 var(--serif); margin: 0 0 10px; }
+.card .en-name { font: 13px var(--mono); color: var(--soft); margin: 0 0 14px; }
+.card p { margin: 0 0 12px; }
+.card p.lead { font: 19px/1.6 var(--serif); }
+.card ul.events { margin: 0 0 12px; padding-left: 1.1em; }
+.card ul.events li { margin: 0 0 4px; }
+.card .poem { border-left: 2px solid var(--red); padding: 2px 0 2px 12px; margin: 14px 0 6px; font-family: var(--serif); }
+.card .poem .t { font-size: 13px; color: var(--soft); }
+.card .poem .x { font-size: 16px; line-height: 1.8; }
+.card .stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px 16px; margin: 16px 0 6px; font-family: var(--mono); }
+.card .stats b { display: block; font: 500 22px/1.1 var(--mono); color: var(--red); }
+.card .stats span { font-size: 11px; color: var(--muted); }
+.card .chips { display: flex; flex-wrap: wrap; gap: 4px 6px; margin-top: 12px; }
+.card .chips span { font: 11px var(--mono); color: var(--soft); border: 1px solid var(--hair); padding: 1px 6px; }
+.card .src { font: 11px/1.6 var(--mono); color: var(--muted); margin-top: 14px; border-top: 1px solid var(--hair); padding-top: 10px; }
+.card .note { font-size: 13px; color: var(--soft); }
+.card .raw-note { font: 11px var(--mono); color: var(--gold); }
+.btns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.btn {
+  border: 1px solid var(--ink); background: transparent; padding: 8px 14px; cursor: pointer; min-height: 40px;
+  font: 13px var(--mono); border-radius: 2px;
+}
+.btn.primary { background: var(--ink); color: var(--paper); }
+.btn:hover { background: var(--red); border-color: var(--red); color: var(--paper); }
+.poet-link { color: inherit; text-decoration: none; border-bottom: 1.5px solid currentColor; cursor: pointer; background: none; border-top: 0; border-left: 0; border-right: 0; padding: 0; font: inherit; }
+.swatch { display: inline-block; width: 18px; height: 3px; vertical-align: middle; margin-right: 6px; }
+
+.colophon { position: relative; z-index: 6; background: var(--paper); border-top: 1px solid var(--hair); padding: 28px var(--gut) 48px; font: 12px/1.8 var(--mono); color: var(--soft); }
+.colophon p { max-width: 60rem; margin: 0; }
+.colophon a { color: var(--ink); }
+
+.loading { position: absolute; inset: 0; display: grid; place-items: center; font: 13px var(--mono); color: var(--muted); }
+
+@media (max-width: 760px) {
+  :root { --bar: 96px; }
+  .bar { flex-direction: column; align-items: stretch; justify-content: center; gap: 8px; padding-top: 8px; padding-bottom: 8px; }
+  .controls { justify-content: space-between; gap: 8px; }
+  #poet-input { width: 100%; }
+  .combo { flex: 1; }
+  .ctl-label { display: none; }
+  .step { align-items: flex-end; padding-bottom: 16px; }
+  .card { width: 100%; padding: 16px 18px; max-height: 46svh; overflow: auto; }
+  .card h2 { font-size: 24px; }
+  .brand-sub { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}

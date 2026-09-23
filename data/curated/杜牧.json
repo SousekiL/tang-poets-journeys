@@ -1,0 +1,121 @@
+{
+  "name": "杜牧",
+  "intro": {
+    "zh": "杜牧字牧之，号樊川居士，宰相杜佑的孙子。他在江南的幕府里待了十年，又在黄州、池州、睦州、湖州做刺史，线条几乎全在长安和长江下游之间来回。",
+    "en": "Du Mu, courtesy name Muzhi, styled Layman of Fanchuan, was the grandson of the chief minister Du You. He spent ten years on staffs in the south and later governed Huangzhou, Chizhou, Muzhou and Huzhou; his line runs almost entirely between Chang’an and the lower Yangtze."
+  },
+  "birth_note": {
+    "zh": "803 年，杜牧生于长安城南樊川的杜氏大家族。祖父杜佑官至宰相，编有《通典》。祖父、父亲相继去世后家道中落，他少年时喜读兵书，二十三岁写成《阿房宫赋》，借秦亡讽喻当朝：“后人哀之而不鉴之，亦使后人而复哀后人也。”",
+    "en": "Du Mu was born in 803 into the great Du clan at Fanchuan, south of Chang’an; his grandfather Du You was chief minister and compiler of the Tongdian. After his grandfather and father died the family declined. He loved military texts as a youth, and at twenty-three wrote the Epang Palace Rhapsody, using the fall of Qin as a warning: later men mourn it without learning, and so will be mourned in turn."
+  },
+  "stages": [
+    {
+      "years": [
+        827,
+        832
+      ],
+      "title": {
+        "zh": "登第，入江西、宣歙幕",
+        "en": "Jinshi, then staff posts in the south"
+      },
+      "text": {
+        "zh": "828 年进士及第，同年又中制科，授弘文馆校书郎。年底随沈传师到洪州，任江西观察使幕僚；830 年沈传师调宣州，他随往。",
+        "en": "He passed the jinshi in 828 and a special exam the same year. By year’s end he went to Hongzhou on Shen Chuanshi’s staff, and followed him to Xuanzhou in 830."
+      },
+      "poems": [
+        "江南春"
+      ]
+    },
+    {
+      "years": [
+        833,
+        834
+      ],
+      "title": {
+        "zh": "十年一觉扬州梦",
+        "en": "Yangzhou"
+      },
+      "text": {
+        "zh": "833 年入淮南节度使牛僧孺幕，任掌书记。扬州是当时最繁华的城市，他在这里留下许多风流传说，后来自嘲“十年一觉扬州梦，赢得青楼薄幸名”。",
+        "en": "In 833 he became secretary to Niu Sengru, governor of Huainan, in Yangzhou, the richest city of the age. He left many romantic legends there and later joked that ten years had passed like a dream in Yangzhou."
+      },
+      "poems": [
+        "寄扬州韩绰判官",
+        "赠别",
+        "遣怀"
+      ]
+    },
+    {
+      "years": [
+        835,
+        838
+      ],
+      "title": {
+        "zh": "洛阳与宣州",
+        "en": "Luoyang and Xuanzhou"
+      },
+      "text": {
+        "zh": "835 年任监察御史，因病分司东都洛阳，恰好避开了当年长安的甘露之变。837 年弟弟杜顗眼疾，他赶去扬州照料，因而离职，随后入宣歙观察使崔郸幕。",
+        "en": "Made a censor in 835, he took a post in Luoyang for his health and so missed the Sweet Dew massacre in Chang’an that year. In 837 he went to Yangzhou to care for his brother Du Yi, who was going blind, lost his post, and joined Cui Dan’s staff at Xuanzhou."
+      },
+      "poems": [
+        "题宣州开元寺水阁"
+      ]
+    },
+    {
+      "years": [
+        839,
+        841
+      ],
+      "title": {
+        "zh": "回京，往返江淮",
+        "en": "Back to the capital"
+      },
+      "text": {
+        "zh": "839 年回长安任左补阙、史馆修撰。为了照顾失明的弟弟，他在长安与江南之间多次往返，经江州、鄂州、襄阳、南阳一线。",
+        "en": "In 839 he returned to Chang’an as Reminder of the Left and historian. To look after his blind brother he travelled back and forth to the south several times, by Jiangzhou, Ezhou, Xiangyang and Nanyang."
+      }
+    },
+    {
+      "years": [
+        842,
+        847
+      ],
+      "title": {
+        "zh": "黄州、池州、睦州",
+        "en": "Three prefectures"
+      },
+      "text": {
+        "zh": "842 年出为黄州刺史，写下“东风不与周郎便，铜雀春深锁二乔”；844 年转池州，846 年转睦州。连续三任偏远小州，他自觉被当权者排挤。",
+        "en": "Sent out as prefect of Huangzhou in 842, he wrote of Red Cliff that ‘had the east wind not favoured Zhou Yu, the two Qiao sisters would be locked in Cao Cao’s tower.’ He moved to Chizhou in 844 and Muzhou in 846, three small remote posts in a row, which he took as being frozen out."
+      },
+      "poems": [
+        "赤壁",
+        "清明",
+        "题乌江亭"
+      ]
+    },
+    {
+      "years": [
+        848,
+        852
+      ],
+      "title": {
+        "zh": "湖州与最后几年",
+        "en": "Huzhou and the end"
+      },
+      "text": {
+        "zh": "848 年回京任司勋员外郎，因京官俸薄，自请出任湖州刺史。851 年再回长安，官至中书舍人。852 年病重，自撰墓志，烧掉大部分诗稿，不久去世。",
+        "en": "Back in the capital in 848, he found the salary too thin and asked to govern Huzhou. Returning in 851, he rose to Secretariat drafter. Seriously ill in 852, he wrote his own epitaph, burned most of his poems, and died soon after."
+      },
+      "poems": [
+        "山行",
+        "泊秦淮"
+      ]
+    }
+  ],
+  "outro": {
+    "zh": "他烧掉的诗稿，外甥裴延翰从别处搜集回来一部分，编成《樊川文集》。“停车坐爱枫林晚，霜叶红于二月花”就在其中。",
+    "en": "His nephew Pei Yanhan recovered part of what he burned and compiled the Fanchuan Collection. ‘I stop the carriage to enjoy the maples at dusk; frosted leaves redder than February flowers’ is among what survived."
+  }
+}

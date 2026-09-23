@@ -1,0 +1,31 @@
+{
+  "name": "柳宗元",
+  "intro": {
+    "zh": "柳宗元字子厚，世称柳河东、柳柳州。二十一岁中进士，三十三岁参与永贞革新，失败后在永州、柳州度过了人生最后十四年。他的线很短，却几乎全在往南走。",
+    "en": "Liu Zongyuan, courtesy name Zihou, known as Liu of Hedong or Liu of Liuzhou, passed the jinshi at 21, joined the Yongzhen reforms at 33, and spent his last fourteen years in exile at Yongzhou and Liuzhou. His line is short, and nearly all of it heads south."
+  },
+  "birth_note": {
+    "zh": "773 年，柳宗元生于长安，祖籍河东（今山西永济）。四岁起由母亲卢氏教他读古赋。",
+    "en": "Liu Zongyuan was born in Chang’an in 773; the family came from Hedong (today’s Yongji in Shanxi). From the age of four his mother taught him to read the old rhapsodies."
+  },
+  "stages": [
+    {"years": [783, 792], "title": {"zh": "随父游宦", "en": "Following his father’s posts"},
+     "text": {"zh": "少年时跟随父亲柳镇游宦，到过夏口、长沙、九江，亲眼看到藩镇战乱中的南方。",
+              "en": "As a boy he followed his father Liu Zhen to posts at Xiakou, Changsha and Jiujiang, and saw the south in the middle of the provincial wars."}},
+    {"years": [793, 804], "title": {"zh": "少年得志", "en": "Early success"},
+     "text": {"zh": "793 年与刘禹锡同榜进士，年仅二十一岁。798 年中博学宏词科，任集贤殿正字，后为蓝田尉、监察御史里行，与刘禹锡一同成为王叔文集团的核心人物。",
+              "en": "He passed the jinshi in 793, aged 21, in the same year as Liu Yuxi. After the placement exam of 798 he held posts at the Jixian library, Lantian and the Censorate, and with Liu became a core member of Wang Shuwen’s reform group."}},
+    {"years": [805, 814], "title": {"zh": "永州十年", "en": "Ten years at Yongzhou"},
+     "text": {"zh": "805 年永贞革新只维持了一百多天，“二王八司马”全部被贬，他被贬为永州司马。到永州半年，同行的母亲病逝。他寄情山水，写下《永州八记》《捕蛇者说》，还有“孤舟蓑笠翁，独钓寒江雪”。",
+              "en": "The Yongzhen reforms of 805 lasted just over a hundred days; the ‘two Wangs and eight marshals’ were all banished, Liu to Yongzhou. His mother, who came with him, died within six months. He turned to the landscape and wrote the Eight Records of Yongzhou, The Snake Catcher, and ‘a lone boat, an old man in a straw cape, fishing alone in the cold river snow.’"},
+     "poems": ["江雪", "始得西山宴游记", "捕蛇者说", "小石潭记"]},
+    {"years": [815, 819], "title": {"zh": "再贬柳州", "en": "Further south, to Liuzhou"},
+     "text": {"zh": "815 年奉召回京，一个月后又被外放柳州刺史。刘禹锡本要去更远的播州，家有老母，柳宗元上书请求与他对换，刘禹锡因此改任连州。两人在衡阳分手。到柳州后，他释放奴婢、凿井种树、兴办学校，819 年病逝，年仅四十七岁。",
+              "en": "Recalled in 815, within a month he was sent out again as prefect of Liuzhou. Liu Yuxi, with an aged mother, had been assigned remote Bozhou; Liu Zongyuan offered to swap, and Liu Yuxi was moved to Lianzhou instead. They parted at Hengyang. In Liuzhou he freed bondservants, dug wells, planted trees and built schools, and died in 819 at 47."},
+     "poems": ["登柳州城楼寄漳汀封连四州", "种柳戏题", "衡阳与梦得分路赠别"]}
+  ],
+  "outro": {
+    "zh": "临终前他把遗稿托付给刘禹锡，刘禹锡花了二十多年编成《柳河东集》。柳州人为他立庙，至今称他“柳柳州”。",
+    "en": "Dying, he left his manuscripts to Liu Yuxi, who spent more than twenty years editing them. The people of Liuzhou built him a shrine and still call him Liu of Liuzhou."
+  }
+}

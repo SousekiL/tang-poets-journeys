@@ -1,0 +1,44 @@
+{
+  "name": "辛弃疾",
+  "intro": {
+    "zh": "辛弃疾字幼安，号稼轩。他生在金国统治下的济南，二十三岁带兵南归，从此再没回过北方。四十年里，他一半时间在江淮、两湖、福建做官，一半时间在江西上饶、铅山闲居。",
+    "en": "Xin Qiji, courtesy name You’an, styled Jiaxuan, was born in Jin-ruled Jinan, crossed south with a rebel band at 23, and never saw the north again. For forty years he spent half his time in office around the Huai, Hubei, Hunan and Fujian, and half in forced retirement at Shangrao and Yanshan in Jiangxi."
+  },
+  "birth_note": {
+    "zh": "1140 年，辛弃疾生于济南历城，此时北方已沦陷十余年。父亲早逝，由祖父辛赞抚养，祖父常带他“登高望远，指画山河”，嘱咐他将来报国。",
+    "en": "Xin Qiji was born at Licheng near Jinan in 1140, more than a decade after the north had fallen to the Jin. His father died early and his grandfather Xin Zan raised him, taking him up hills to point out the lost land and telling him to serve the Song one day."
+  },
+  "stages": [
+    {"years": [1154, 1161], "title": {"zh": "在金国长大", "en": "Growing up under the Jin"},
+     "text": {"zh": "他两次以应试为名去燕京，暗中观察山川形势。1161 年金主完颜亮南侵，北方义军四起，二十二岁的他聚集两千人，投奔耿京的起义军，任掌书记。",
+              "en": "Twice he travelled to Yanjing, nominally for the Jin exams, to study the terrain. When the Jin emperor invaded the south in 1161 and rebellion spread across the north, he raised two thousand men at twenty-two and joined Geng Jing’s rebel army as secretary."}},
+    {"years": [1162, 1169], "title": {"zh": "五十骑擒叛将，南归", "en": "Fifty riders, and the crossing south"},
+     "text": {"zh": "1162 年他奉耿京之命南下建康联络朝廷，回程得知耿京被叛徒张安国杀害，便率五十骑直闯五万人的金营，生擒张安国，押解南下交给朝廷。此后任江阴签判，写下《美芹十论》。",
+              "en": "In 1162 Geng Jing sent him to Jiankang to make contact with the Song court. On the way back he learned Geng had been murdered by the traitor Zhang Anguo; he rode with fifty men into a camp of fifty thousand, seized Zhang, and brought him south for justice. He was given a post at Jiangyin and wrote Ten Humble Proposals on the war."},
+     "poems": ["美芹十论"]},
+    {"years": [1170, 1174], "title": {"zh": "临安、滁州、建康", "en": "Lin’an, Chuzhou, Jiankang"},
+     "text": {"zh": "1170 年在延和殿面见孝宗，又上《九议》。1172 年知滁州，招抚流民、减税垦荒。1174 年在建康登赏心亭，“把吴钩看了，栏杆拍遍，无人会，登临意”。",
+              "en": "In 1170 he had an audience with the emperor and submitted Nine Discussions. As prefect of Chuzhou from 1172 he resettled refugees and cut taxes. At Jiankang in 1174, on the Pavilion of Delight: ‘I look at my sword, I slap every railing; no one understands why I climbed up here.’"},
+     "poems": ["水龙吟·登建康赏心亭"]},
+    {"years": [1175, 1181], "title": {"zh": "江西、两湖，创飞虎军", "en": "Jiangxi, Hubei, Hunan: the Flying Tiger Army"},
+     "text": {"zh": "1175 年奉命平定江西茶商军，此后几年在江陵、隆兴、鄂州、潭州之间调任转运使、安抚使。1180 年在潭州创建飞虎军，一时号称江上诸军之冠。",
+              "en": "Sent to put down the tea-merchant rebels in Jiangxi in 1175, he then moved between Jiangling, Longxing, Ezhou and Tanzhou as fiscal and military commissioner. At Tanzhou in 1180 he founded the Flying Tiger Army, briefly the best force on the Yangtze."},
+     "poems": ["菩萨蛮·书江西造口壁", "摸鱼儿"]},
+    {"years": [1182, 1191], "title": {"zh": "带湖稼轩", "en": "Retirement at Dai Lake"},
+     "text": {"zh": "1181 年被弹劾落职，退居上饶带湖，把新居命名为“稼轩”，从此自号稼轩居士。1188 年与陈亮在鹅湖相聚十日，纵论天下。这些年他写了大量田园词：“稻花香里说丰年，听取蛙声一片。”",
+              "en": "Impeached in 1181, he retired to Dai Lake at Shangrao and named his new house Jiaxuan, ‘the farming studio’. In 1188 he spent ten days with Chen Liang at Goose Lake arguing about the state of the world. He wrote many country lyrics here: ‘Amid the scent of rice flowers they talk of a good harvest, and listen to the frogs.’"},
+     "poems": ["西江月·夜行黄沙道中", "清平乐·村居", "破阵子·为陈同甫赋壮词以寄之"]},
+    {"years": [1192, 1202], "title": {"zh": "福建与瓢泉", "en": "Fujian, and Piaoquan"},
+     "text": {"zh": "1192 年起为福建提点刑狱，后任福州知州兼福建安抚使。1194 年再遭弹劾罢官，移居铅山瓢泉，又闲居了近十年。",
+              "en": "From 1192 he was judicial commissioner of Fujian, then prefect of Fuzhou and military commissioner. Impeached again in 1194, he moved to Piaoquan in Yanshan and spent nearly another ten years out of office."},
+     "poems": ["贺新郎"]},
+    {"years": [1203, 1207], "title": {"zh": "廉颇老矣", "en": "‘Lian Po is old’"},
+     "text": {"zh": "1203 年韩侂胄筹备北伐，六十四岁的他被起用为绍兴知府、浙东安抚使，次年知镇江府。他在北固亭写下“凭谁问，廉颇老矣，尚能饭否”。不久又被罢免，1207 年在铅山病逝，据说临终还在喊“杀贼”。",
+              "en": "When Han Tuozhou prepared a northern campaign in 1203, the sixty-four-year-old was recalled to govern Shaoxing and then Zhenjiang. At the Beigu Pavilion he wrote: ‘Who will ask whether old Lian Po can still eat?’ He was soon dismissed again and died at Yanshan in 1207, said to be shouting ‘kill the enemy’ at the end."},
+     "poems": ["永遇乐·京口北固亭怀古", "南乡子·登京口北固亭有怀"]}
+  ],
+  "outro": {
+    "zh": "他南归后的四十五年里，真正在任的时间只有二十年左右。这条线的起点济南，他再也没能回去。",
+    "en": "Of his forty-five years in the south, only about twenty were spent in office. He never got back to Jinan, where the line begins."
+  }
+}

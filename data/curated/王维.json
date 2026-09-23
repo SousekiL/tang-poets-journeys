@@ -1,0 +1,43 @@
+{
+  "name": "王维",
+  "intro": {
+    "zh": "王维字摩诘，诗、画、音乐都是一流。人们记得他辋川隐居的样子，其实他的线条并不短：贬过济州，出过凉州，南下过桂林，北上过榆林。",
+    "en": "Wang Wei, courtesy name Mojie, was first-rate at poetry, painting and music. He is remembered as the recluse of Wangchuan, but his line is not a short one: exiled to Jizhou, sent out to Liangzhou, south to Guilin, north to Yulin."
+  },
+  "birth_note": {
+    "zh": "约 700 年，王维生于太原祁县王氏，后来父亲迁家蒲州（今山西永济），他在那里长大。母亲崔氏信佛多年，对他影响很深。",
+    "en": "Wang Wei was born around 700 into the Wang clan of Qi county near Taiyuan; his father later moved the family to Puzhou (today’s Yongji), where he grew up. His mother, a devout Buddhist, shaped him deeply."
+  },
+  "stages": [
+    {"years": [709, 720], "title": {"zh": "少年名动两京", "en": "Young star of the two capitals"},
+     "text": {"zh": "十五岁离家去长安、洛阳，凭诗、画、琵琶出入诸王府第。十七岁重阳节，他写下“独在异乡为异客，每逢佳节倍思亲”。",
+              "en": "At fifteen he left for Chang’an and Luoyang and was welcomed in princely mansions for his verse, painting and pipa. At seventeen, on the Double Ninth festival, he wrote: ‘Alone, a stranger in a strange land, I miss my family most on festival days.’"},
+     "poems": ["九月九日忆山东兄弟", "洛阳女儿行"]},
+    {"years": [721, 728], "title": {"zh": "进士及第，旋贬济州", "en": "Jinshi, then exile to Jizhou"},
+     "text": {"zh": "721 年进士及第，任太乐丞，不久因伶人私舞只能给皇帝看的黄狮子受牵连，贬为济州司仓参军。他在今山东东阿一带待了几年，之后辞官，一度隐居淇上。",
+              "en": "He passed the jinshi in 721 and became Assistant Director of Music, but was soon implicated when his performers staged the Yellow Lion dance reserved for the emperor, and was demoted to Jizhou. After a few years around today’s Dong’e in Shandong he resigned and lived for a while by the Qi River."}},
+    {"years": [729, 736], "title": {"zh": "长安闲居，嵩山隐居", "en": "Between Chang’an and Mount Song"},
+     "text": {"zh": "回到长安后，妻子去世，他此后三十年不再娶，从道光禅师学佛。734 年隐居嵩山，次年得宰相张九龄提拔，任右拾遗。",
+              "en": "Back in Chang’an his wife died; he never remarried in the thirty years that followed, and studied Chan with Master Daoguang. In 734 he withdrew to Mount Song; the next year the chief minister Zhang Jiuling brought him back as Reminder of the Right."}},
+    {"years": [737, 739], "title": {"zh": "单车欲问边：出使凉州", "en": "Out to the frontier at Liangzhou"},
+     "text": {"zh": "737 年张九龄罢相，王维以监察御史身份出塞，到河西节度使崔希逸幕中。这是他走得最远的一次，也留下了唐诗里最有名的边塞画面：“大漠孤烟直，长河落日圆。”",
+              "en": "When Zhang Jiuling fell in 737, Wang Wei was sent as a censor to the Hexi command at Liangzhou. It was his farthest journey, and it gave Tang poetry its most famous frontier image: ‘A lone plume of smoke rises straight over the desert; the long river, the setting sun, round.’"},
+     "poems": ["使至塞上", "出塞作", "送元二使安西"]},
+    {"years": [740, 744], "title": {"zh": "知南选，远赴桂林", "en": "South to Guilin on official business"},
+     "text": {"zh": "740 年迁殿中侍御史，奉命“知南选”，主持岭南的官员选拔。一路经襄阳、郢州、夏口到桂林；到襄阳时孟浩然刚去世，他作诗哭之。回京后在终南山置别业，半官半隐。",
+              "en": "Promoted in 740, he was sent to run the official selections for the far south. He travelled by Xiangyang, Yingzhou and Xiakou to Guilin; at Xiangyang he mourned Meng Haoran, who had just died. Back north he kept a retreat in the Zhongnan hills, half in office, half out."},
+     "poems": ["汉江临泛", "哭孟浩然", "终南别业"]},
+    {"years": [745, 755], "title": {"zh": "北使榆林，归隐辋川", "en": "North to Yulin, home to Wangchuan"},
+     "text": {"zh": "745 年前后出使榆林、新秦二郡，到了今天的陕北、内蒙古一带。此后在蓝田买下宋之问的辋川别业，与裴迪同游唱和，编成《辋川集》：“空山不见人，但闻人语响。”",
+              "en": "Around 745 he went on a mission to Yulin and Xinqin, in today’s northern Shaanxi and Inner Mongolia. Then he bought Song Zhiwen’s old estate at Wangchuan in Lantian and, with his friend Pei Di, wrote the Wangchuan Collection: ‘Empty mountain, no one in sight, only the echo of voices.’"},
+     "poems": ["鹿柴", "山居秋暝", "竹里馆"]},
+    {"years": [756, 761], "title": {"zh": "陷贼与晚年", "en": "Captured by the rebels, and last years"},
+     "text": {"zh": "756 年安禄山攻陷长安，王维没来得及逃，服药装哑仍被押到洛阳，被迫接受伪职。收复后本当问罪，因为写过怀念朝廷的《凝碧池》，加上弟弟王缙请求削官赎兄，只被降职。晚年官至尚书右丞，761 年去世。",
+              "en": "When An Lushan took Chang’an in 756 Wang Wei failed to escape; he took drugs to feign muteness but was still taken to Luoyang and forced into a rebel post. After the recovery he should have been punished, but a poem mourning the dynasty and his brother Wang Jin’s offer to give up his own rank saved him. He ended as Vice Director of the Right and died in 761."},
+     "poems": ["菩提寺禁裴迪来相看说逆贼等凝碧池上作音乐供奉人等举声便一时泪下私成口号诵示裴迪"]}
+  ],
+  "outro": {
+    "zh": "苏轼说他“诗中有画，画中有诗”。这条线上画得最满的，其实只有长安和辋川之间那一小段。",
+    "en": "Su Shi said of him, ‘in his poems there are paintings, in his paintings poems.’ The busiest stretch of this line is just the short run between Chang’an and Wangchuan."
+  }
+}

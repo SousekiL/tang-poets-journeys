@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>行迹 · 唐宋诗人行旅图</title>
+  <meta name="description" content="唐宋诗人一生走过的路：滚动地图，跟着李白、杜甫、苏轼走一遍。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="bar" id="bar">
+    <a class="brand" href="#" id="brand"><span class="brand-zh">行迹</span><span class="brand-sub" data-i18n="brandSub">唐宋诗人行旅图</span></a>
+    <div class="controls">
+      <label class="ctl">
+        <span class="ctl-label" data-i18n="dynasty">朝代</span>
+        <select id="dynasty">
+          <option value="tang" data-i18n="tang">唐</option>
+          <option value="wudai" data-i18n="wudai">五代</option>
+          <option value="song" data-i18n="song">宋</option>
+        </select>
+      </label>
+      <div class="ctl combo" id="combo">
+        <span class="ctl-label" data-i18n="poet">诗人</span>
+        <input id="poet-input" type="search" autocomplete="off" role="combobox" aria-expanded="false"
+               aria-controls="poet-list" aria-autocomplete="list" data-i18n-placeholder="searchPh" placeholder="姓名 / 拼音">
+        <ul id="poet-list" role="listbox" hidden></ul>
+      </div>
+      <button class="lang" id="lang" type="button" aria-label="Switch language">EN</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="scrolly" id="scrolly">
+      <div class="stage" id="stage">
+        <svg id="map" role="img" aria-labelledby="map-title"><title id="map-title">诗人行迹地图</title>
+          <defs>
+            <filter id="paper" x="0" y="0" width="100%" height="100%">
+              <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" seed="7" result="n"/>
+              <feColorMatrix in="n" type="matrix" values="0 0 0 0 0.45  0 0 0 0 0.38  0 0 0 0 0.25  0 0 0 .06 0"/>
+            </filter>
+          </defs>
+          <rect class="sea" width="100%" height="100%"/>
+          <g id="world"></g>
+          <rect width="100%" height="100%" filter="url(#paper)" pointer-events="none"/>
+        </svg>
+        <canvas id="routes"></canvas>
+        <svg id="overlay" aria-hidden="true"></svg>
+        <div class="scale" id="scale"></div>
+      </div>
+      <div class="steps" id="steps"></div>
+    </section>
+
+    <footer class="colophon" id="colophon">
+      <p data-i18n-html="colophon"></p>
+    </footer>
+  </main>
+
+  <script src="assets/vendor/d3.min.js"></script>
+  <script src="assets/vendor/topojson-client.min.js"></script>
+  <script src="assets/i18n.js"></script>
+  <script src="assets/story.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

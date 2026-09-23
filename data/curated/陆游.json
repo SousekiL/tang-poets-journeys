@@ -1,0 +1,49 @@
+{
+  "name": "陆游",
+  "intro": {
+    "zh": "陆游字务观，号放翁，现存诗九千多首，是存诗最多的古代诗人之一。他一辈子想收复中原，离北方最近的一次是 1172 年的南郑前线；此后他的线一路往回走，最后停在故乡山阴。",
+    "en": "Lu You, courtesy name Wuguan, styled the Old Man Who Lets Himself Go, left over nine thousand poems, among the most of any Chinese poet. He wanted the lost north back all his life; the closest he got was the Nanzheng front in 1172. After that his line keeps drawing back, until it stops at his home in Shanyin."
+  },
+  "birth_note": {
+    "zh": "1125 年，陆游出生在父亲陆宰沿淮河赴任的船上，数据把地点标在寿县附近。第二年金兵南下，一家人开始逃难。",
+    "en": "Lu You was born in 1125 on a boat on the Huai River as his father Lu Zai travelled to a post; the data places it near Shouxian. The next year the Jin invaded and the family became refugees."
+  },
+  "stages": [
+    {"years": [1126, 1152], "title": {"zh": "乱世童年，山阴读书", "en": "A wartime childhood"},
+     "text": {"zh": "童年随家避乱东阳，后回山阴老家读书。二十岁前后娶表妹唐琬，感情很好，却因母亲不喜被迫分开。",
+              "en": "As a child he fled with his family to Dongyang, then studied at home in Shanyin. Around twenty he married his cousin Tang Wan; they were devoted, but his mother disapproved and forced them apart."}},
+    {"years": [1153, 1157], "title": {"zh": "秦桧与沈园", "en": "Qin Hui, and Shen Garden"},
+     "text": {"zh": "1153 年临安锁厅试名列第一，排在秦桧的孙子前面，第二年礼部试就被秦桧黜落。约 1155 年在沈园偶遇已改嫁的唐琬，题下《钗头凤》：“错、错、错。”",
+              "en": "In 1153 he came first in an exam in Lin’an, ahead of the chief minister Qin Hui’s grandson, and the next year Qin had him failed. Around 1155 he met Tang Wan, now remarried, by chance in Shen Garden and wrote on the wall: ‘Wrong, wrong, wrong.’"},
+     "poems": ["钗头凤"]},
+    {"years": [1158, 1164], "title": {"zh": "初入仕途", "en": "First posts"},
+     "text": {"zh": "秦桧死后，1158 年他才出任福州宁德县主簿，后调回临安。1162 年孝宗即位，赐进士出身。1164 年任镇江通判，结识了主战派的张浚。",
+              "en": "Only after Qin Hui died did he get a post, as registrar of Ningde in Fujian in 1158, and then back in Lin’an. The new emperor Xiaozong granted him jinshi status in 1162. As vice-prefect of Zhenjiang in 1164 he met the war-party leader Zhang Jun."}},
+    {"years": [1165, 1169], "title": {"zh": "北伐失败，罢官回乡", "en": "A failed campaign, dismissed"},
+     "text": {"zh": "隆兴北伐失败后，他调任隆兴府通判，1166 年被以“鼓唱是非，力说张浚用兵”的罪名罢官，回到山阴镜湖边闲居，写下“山重水复疑无路，柳暗花明又一村”。",
+              "en": "After the failed northern campaign he was moved to Longxing, and in 1166 dismissed for ‘stirring up trouble and urging Zhang Jun to war’. Back by Mirror Lake in Shanyin he wrote: ‘Hills upon hills, streams upon streams, no road, it seems; then willows dark, flowers bright, another village.’"},
+     "poems": ["游山西村"]},
+    {"years": [1170, 1171], "title": {"zh": "入蜀", "en": "The journey to Sichuan"},
+     "text": {"zh": "1170 年起为夔州通判。他从山阴出发，沿运河、长江溯流而上，走了五个多月才到夔州，一路写成日记《入蜀记》。",
+              "en": "In 1170 he was appointed vice-prefect of Kuizhou. He set out from Shanyin by canal and up the Yangtze, and took more than five months to arrive, keeping the diary Journey into Shu all the way."}},
+    {"years": [1172, 1172], "title": {"zh": "南郑前线", "en": "The Nanzheng front"},
+     "text": {"zh": "1172 年四川宣抚使王炎邀他入幕，他到了南郑前线，身着戎装巡视大散关。这是他离中原最近的时候，“铁马秋风大散关”。可惜同年秋天王炎被召回，幕府解散，他“细雨骑驴入剑门”，转往成都。",
+              "en": "In 1172 the Sichuan commander Wang Yan took him onto his staff at Nanzheng, and he patrolled the Dasan Pass in armour, the closest he ever came to the lost north: ‘iron horses, autumn wind, Dasan Pass.’ That autumn Wang was recalled, the staff dissolved, and he rode ‘into Jianmen on a donkey in the drizzle’ on his way to Chengdu."},
+     "poems": ["剑门道中遇微雨", "山南行"]},
+    {"years": [1173, 1177], "title": {"zh": "成都放翁", "en": "Chengdu"},
+     "text": {"zh": "此后几年在成都、蜀州、嘉州之间任职，后来在范成大的幕府中。有人批评他“燕饮颓放”，他干脆自号“放翁”。",
+              "en": "For several years he held posts in Chengdu, Shuzhou and Jiazhou, later on Fan Chengda’s staff. When critics called him dissolute, he simply adopted the name Fang Weng, ‘the old man who lets himself go’."}},
+    {"years": [1178, 1188], "title": {"zh": "东归，福建、江西、严州", "en": "Back east: Fujian, Jiangxi, Yanzhou"},
+     "text": {"zh": "1178 年奉召东归，孝宗召见后派他去福建、江西管理常平茶盐。1180 年江西水灾，他未经批准开仓赈济，被弹劾罢官。1186 年起知严州。",
+              "en": "Recalled east in 1178, he was sent by the emperor to manage granaries and tea and salt in Fujian and Jiangxi. When floods hit Jiangxi in 1180 he opened the granaries without authorization and was impeached. From 1186 he governed Yanzhou."},
+     "poems": ["书愤", "临安春雨初霁"]},
+    {"years": [1189, 1209], "title": {"zh": "山阴晚年", "en": "Old age in Shanyin"},
+     "text": {"zh": "1189 年再次罢官，此后二十年大多住在山阴乡下，只在 1202 年短暂入京修国史。他八十多岁仍在写诗，1209 年临终写下《示儿》：“王师北定中原日，家祭无忘告乃翁。”",
+              "en": "Dismissed again in 1189, he spent most of his last twenty years in the Shanyin countryside, with a short stint in the capital compiling the dynastic history in 1202. Still writing in his eighties, he died in 1209, leaving a last poem to his sons: ‘The day the imperial army retakes the north, don’t forget to tell your father at the family altar.’"},
+     "poems": ["十一月四日风雨大作", "沈园", "示儿"]}
+  ],
+  "outro": {
+    "zh": "他去世六十多年后，南宋灭亡。那一天始终没有来。",
+    "en": "Sixty-odd years after his death the Southern Song fell. That day never came."
+  }
+}

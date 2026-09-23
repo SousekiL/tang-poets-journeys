@@ -1,0 +1,44 @@
+{
+  "name": "李商隐",
+  "intro": {
+    "zh": "李商隐字义山，号玉谿生。他夹在牛李两党之间，一辈子在节度使幕府里当文书：郓州、太原、泾州、桂林、徐州、梓州。诗写得最隐晦，路却走得很实在。",
+    "en": "Li Shangyin, courtesy name Yishan, styled Master of Jade Stream, was caught between the Niu and Li factions and spent his life as a secretary on regional governors’ staffs: Yunzhou, Taiyuan, Jingzhou, Guilin, Xuzhou, Zizhou. His poems are the most elusive in Tang verse; his roads were very concrete."
+  },
+  "birth_note": {
+    "zh": "约 813 年，李商隐生于怀州获嘉（今属河南），祖籍怀州河内。不满三岁就随做幕僚的父亲到了浙东、润州一带。",
+    "en": "Li Shangyin was born around 813 at Huojia in Huaizhou (today’s Henan). Before he was three he went with his father, a staff official, to eastern Zhejiang and Runzhou."
+  },
+  "stages": [
+    {"years": [814, 828], "title": {"zh": "佣书贩舂", "en": "Copying books to feed the family"},
+     "text": {"zh": "约十岁时父亲死于任上，他随母亲扶柩回乡。作为长子，他靠替人抄书、舂米养家，“佣书贩舂”。",
+              "en": "His father died in office when he was about ten, and he brought the coffin home with his mother. As the eldest son he supported the family by copying books and hulling rice for others."}},
+    {"years": [829, 836], "title": {"zh": "令狐楚门下", "en": "Protégé of Linghu Chu"},
+     "text": {"zh": "829 年以文章投谒天平军节度使令狐楚，被收入郓州幕府，亲授骈文章奏之法；后又随令狐楚到太原。其间几次应考都落第。",
+              "en": "In 829 he presented his writing to Linghu Chu, military governor at Yunzhou, who took him onto his staff and personally taught him parallel prose; later he followed Linghu to Taiyuan. He failed the exams several times in these years."}},
+    {"years": [837, 843], "title": {"zh": "登第，落入党争", "en": "Passing the exam, caught in the factions"},
+     "text": {"zh": "837 年在令狐绹推荐下进士及第。同年令狐楚病死兴元，他赶去送终。838 年入泾原节度使王茂元幕，娶了他的女儿。王茂元被视为李党，令狐一家从此认为他忘恩负义，他在两党夹缝里再难翻身。",
+              "en": "He passed the jinshi in 837 with Linghu Tao’s backing, and that year hurried to Xingyuan to attend Linghu Chu’s deathbed. In 838 he joined Wang Maoyuan’s staff at Jingzhou and married his daughter. Wang was counted in the rival Li faction; the Linghus considered him an ingrate, and he never escaped the gap between the parties."},
+     "poems": ["安定城楼"]},
+    {"years": [844, 846], "title": {"zh": "闲居", "en": "Years out of office"},
+     "text": {"zh": "母亲去世后他守丧数年，移家永乐，一度赋闲。此时牛党得势，他的仕途更加渺茫。",
+              "en": "After his mother’s death he spent years in mourning and moved his household to Yongle. With the Niu faction now in power, his prospects grew dimmer still."},
+     "poems": ["登乐游原"]},
+    {"years": [847, 848], "title": {"zh": "远赴桂林", "en": "To Guilin"},
+     "text": {"zh": "847 年随桂管观察使郑亚南下桂林，经江陵、潭州，一路写诗。次年郑亚被贬，他北归，在巴蜀、荆楚一带滞留辗转。",
+              "en": "In 847 he went south with the Guilin commissioner Zheng Ya, writing poems through Jiangling and Tanzhou. When Zheng was demoted the next year he headed north again and lingered around Sichuan and the middle Yangtze."}},
+    {"years": [849, 850], "title": {"zh": "徐州幕府", "en": "Xuzhou"},
+     "text": {"zh": "849 年入武宁军节度使卢弘止幕，在徐州任判官。卢弘止不久病逝，他又回到长安。",
+              "en": "In 849 he joined Lu Hongzhi’s staff at Xuzhou. Lu soon died and he went back to Chang’an."}},
+    {"years": [851, 855], "title": {"zh": "东川四年", "en": "Four years in Zizhou"},
+     "text": {"zh": "851 年妻子王氏病逝。同年他随东川节度使柳仲郢入蜀，在梓州幕府一待四年。“君问归期未有期，巴山夜雨涨秋池”，一般认为就是寄给长安亲友的。",
+              "en": "His wife died in 851. That year he followed Liu Zhongying to Sichuan and stayed four years on his staff at Zizhou. ‘You ask when I’ll come home; I can’t say. Night rain in the Ba hills swells the autumn pools’ is usually read as a letter home from here."},
+     "poems": ["夜雨寄北", "筹笔驿", "锦瑟"]},
+    {"years": [856, 858], "title": {"zh": "最后几年", "en": "Last years"},
+     "text": {"zh": "856 年随柳仲郢回京，任盐铁推官，曾游江东。858 年罢职回到郑州，不久病逝，年四十多岁。",
+              "en": "Back in the capital with Liu Zhongying in 856, he became a salt-and-iron inspector and travelled in the lower Yangtze. He lost the post in 858, went home to Zhengzhou, and died soon after, in his mid-forties."}}
+  ],
+  "outro": {
+    "zh": "“此情可待成追忆，只是当时已惘然。”《锦瑟》到底写给谁，一千多年来没人说得清。",
+    "en": "‘This feeling might have waited to become a memory; even then it was already lost.’ Who the Brocade Zither is about, no one has settled in over a thousand years."
+  }
+}

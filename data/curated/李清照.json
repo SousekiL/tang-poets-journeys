@@ -1,0 +1,39 @@
+{
+  "name": "李清照",
+  "intro": {
+    "zh": "李清照号易安居士。前半生在汴京、青州过着读书、收藏、填词的日子；1127 年靖康之变后，她一个人带着文物南逃，后半生辗转于江浙，最后在临安、金华之间度过晚年。",
+    "en": "Li Qingzhao, styled the Layman of Easy Peace, spent the first half of her life in Kaifeng and Qingzhou reading, collecting and writing lyrics. After the Jingkang disaster of 1127 she fled south alone with the collection, drifted through Jiangsu and Zhejiang, and spent her last years between Lin’an and Jinhua."
+  },
+  "birth_note": {
+    "zh": "1084 年，李清照生于齐州章丘（今山东济南）。父亲李格非是苏轼的学生、著名学者，母亲也出身书香门第。",
+    "en": "Li Qingzhao was born in 1084 at Zhangqiu in Qizhou (today’s Jinan). Her father Li Gefei was a noted scholar and a protégé of Su Shi; her mother was also from a literary family."
+  },
+  "stages": [
+    {"years": [1090, 1106], "title": {"zh": "汴京少女", "en": "A girl in Kaifeng"},
+     "text": {"zh": "少女时随父亲住在汴京，写下“常记溪亭日暮，沉醉不知归路”。1101 年嫁给太学生赵明诚。不久新旧党争再起，父亲被列入元祐党籍，她也受到牵连。",
+              "en": "As a girl she lived in Kaifeng with her father and wrote ‘I often remember the stream pavilion at dusk, too drunk to find the way home.’ In 1101 she married the student Zhao Mingcheng. When the factional purges resumed her father was blacklisted, and she was caught up in it."},
+     "poems": ["如梦令", "点绛唇"]},
+    {"years": [1107, 1120], "title": {"zh": "青州十年", "en": "Ten years at Qingzhou"},
+     "text": {"zh": "1107 年赵家失势，夫妻回到青州故里，把书房命名为“归来堂”。两人在这里收集金石书画，饭后比赛谁记得某事在哪本书哪一页，赢的人先喝茶，常常笑得把茶泼了一身。",
+              "en": "When the Zhao family fell from favour in 1107 the couple retired to Qingzhou and named their study the Hall of Return. They collected bronzes, inscriptions and paintings, and after dinner played a game of naming the book and page for a fact; the winner drank tea first, and often laughed so hard it spilled."},
+     "poems": ["醉花阴", "一剪梅"]},
+    {"years": [1121, 1126], "title": {"zh": "莱州、淄州", "en": "Laizhou and Zizhou"},
+     "text": {"zh": "赵明诚先后出任莱州、淄州知州，她随夫前往，两人继续编写《金石录》。",
+              "en": "Zhao Mingcheng was made prefect of Laizhou and then Zizhou; she went with him, and they kept working on their Record of Bronzes and Stones."}},
+    {"years": [1127, 1129], "title": {"zh": "南渡", "en": "Fleeing south"},
+     "text": {"zh": "1127 年金兵攻破汴京，赵明诚南下奔丧，她押着十五车书籍文物随后到了建康，青州留下的十几屋藏品全被烧毁。1129 年赵明诚赴湖州任途中病死在建康。她写下“生当作人杰，死亦为鬼雄。至今思项羽，不肯过江东”。",
+              "en": "When the Jin took Kaifeng in 1127 Zhao went south for his mother’s funeral and she followed to Jiankang with fifteen cartloads of books and objects; the rooms of collection left at Qingzhou were burned. In 1129 Zhao died at Jiankang on his way to a new post. She wrote: ‘In life, be a hero among men; in death, a hero among ghosts. I still think of Xiang Yu, who would not cross back east of the river.’"},
+     "poems": ["夏日绝句"]},
+    {"years": [1130, 1131], "title": {"zh": "追随行在", "en": "Chasing the fleeing court"},
+     "text": {"zh": "为了躲避金兵，也为了把文物交给朝廷自证清白，她沿着宋高宗逃亡的路线一路追赶：越州、明州、台州，甚至渡海到温州。途中文物被盗、被夺，大半散失。",
+              "en": "Fleeing the Jin, and hoping to hand the collection to the court to clear her name, she followed Emperor Gaozong’s escape route: Yuezhou, Mingzhou, Taizhou, even by sea to Wenzhou. Along the way most of the collection was stolen or lost."}},
+    {"years": [1132, 1156], "title": {"zh": "临安与金华", "en": "Lin’an and Jinhua"},
+     "text": {"zh": "1132 年定居临安，再嫁张汝舟，发现对方觊觎她的收藏，百日后告官离异。1134 年避乱到金华，写下“物是人非事事休，欲语泪先流”。她完成了《金石录后序》，晚年一直在临安。",
+              "en": "Settling in Lin’an in 1132, she remarried Zhang Ruzhou, discovered he was after her collection, and within a hundred days sued for divorce. Fleeing to Jinhua in 1134 she wrote: ‘Things remain, the people are gone, everything is over; before I speak, the tears come.’ She finished her afterword to the Record of Bronzes and Stones and spent her last years in Lin’an."},
+     "poems": ["武陵春", "声声慢", "永遇乐"]}
+  ],
+  "outro": {
+    "zh": "“寻寻觅觅，冷冷清清，凄凄惨惨戚戚。”她的卒年没有确切记载，一般认为在 1155 年前后。",
+    "en": "‘Searching, seeking; cold, clear; bleak, bitter, sorrowful.’ The year of her death is not recorded; it is usually put around 1155."
+  }
+}

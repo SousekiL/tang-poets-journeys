@@ -1,0 +1,46 @@
+{
+  "name": "欧阳修",
+  "intro": {
+    "zh": "欧阳修字永叔，号醉翁，晚号六一居士。他是北宋文坛领袖，主持科举时录取了苏轼、苏辙、曾巩。仕途上三次外放：夷陵、滁州、亳州与青州，每一次都留下了名篇。",
+    "en": "Ouyang Xiu, courtesy name Yongshu, styled the Old Drunkard and later the Layman of Six Ones, led the Northern Song literary world; as chief examiner he passed Su Shi, Su Zhe and Zeng Gong. He was sent out of the capital three times, to Yiling, Chuzhou, and Bozhou and Qingzhou, and left famous writing each time."
+  },
+  "birth_note": {
+    "zh": "1007 年，欧阳修生于绵州（今四川绵阳），当时父亲欧阳观任绵州推官。祖籍是吉州庐陵（今江西吉安）。",
+    "en": "Ouyang Xiu was born in 1007 at Mianzhou (today’s Mianyang in Sichuan), where his father was a judicial officer. The family came from Luling in Jizhou (today’s Ji’an, Jiangxi)."
+  },
+  "stages": [
+    {"years": [1010, 1029], "title": {"zh": "画荻教子", "en": "Learning to write with a reed"},
+     "text": {"zh": "四岁时父亲在泰州任上去世，母亲郑氏带着他投奔随州的叔父。家里买不起纸笔，母亲用荻草在沙地上教他写字。他在随州一户人家的废纸篓里找到韩愈文集，从此立志写古文。",
+              "en": "His father died in office at Taizhou when he was four, and his mother took him to live with an uncle in Suizhou. Too poor for paper and brushes, she taught him to write with a reed in the sand. In a neighbour’s waste basket he found a copy of Han Yu’s essays and resolved to write in the old style."}},
+    {"years": [1030, 1033], "title": {"zh": "进士，洛阳", "en": "Jinshi, and Luoyang"},
+     "text": {"zh": "1030 年进士及第，任西京留守推官。在洛阳，他与梅尧臣、尹洙等人结社唱和，游嵩山，开始倡导诗文革新。",
+              "en": "He passed the jinshi in 1030 and became a judicial officer at the western capital, Luoyang. There he formed a circle with Mei Yaochen and Yin Zhu, climbed Mount Song, and began to push for a reform of prose and verse."}},
+    {"years": [1034, 1035], "title": {"zh": "馆阁校勘", "en": "The imperial library"},
+     "text": {"zh": "1034 年入京任馆阁校勘，参与编修《崇文总目》。",
+              "en": "In 1034 he joined the imperial library in Kaifeng and helped compile its catalogue."}},
+    {"years": [1036, 1039], "title": {"zh": "贬夷陵", "en": "Exile to Yiling"},
+     "text": {"zh": "1036 年范仲淹因批评宰相被贬，谏官高若讷反而说范仲淹该贬。欧阳修写信痛骂他“不复知人间有羞耻事”，随即被贬为夷陵县令。他乘船经运河、长江西上，走了五个月，后来又调任乾德县令。",
+              "en": "When Fan Zhongyan was demoted in 1036 for criticizing the chief minister, the remonstrator Gao Ruone said he deserved it. Ouyang wrote to him that he ‘no longer knew what shame is’, and was promptly exiled as magistrate of Yiling. The trip up the canals and the Yangtze took five months; later he was moved to Qiande."},
+     "poems": ["与高司谏书", "戏答元珍"]},
+    {"years": [1040, 1044], "title": {"zh": "回京与庆历新政", "en": "Back at court: the Qingli reforms"},
+     "text": {"zh": "1040 年召回京城。1043 年范仲淹主持庆历新政，他任谏官全力支持，写《朋党论》回击“结党”的指责。1044 年奉命出使河东，走遍今山西各地。",
+              "en": "Recalled in 1040, he became a remonstrator in 1043 and backed Fan Zhongyan’s Qingli reforms, answering the charge of faction-building with his essay On Factions. In 1044 he was sent to inspect Hedong, crossing much of today’s Shanxi."},
+     "poems": ["朋党论"]},
+    {"years": [1045, 1053], "title": {"zh": "醉翁滁州，扬州，颍州", "en": "The Old Drunkard in Chuzhou"},
+     "text": {"zh": "1045 年新政失败，他被人借家事诬陷，贬知滁州，自号醉翁，写下《醉翁亭记》：“醉翁之意不在酒，在乎山水之间也。”后调扬州，建平山堂；1049 年到颍州，从此喜爱颍州，打算在那里终老。",
+              "en": "When the reforms collapsed in 1045 he was smeared over a family matter and sent to Chuzhou, where he called himself the Old Drunkard and wrote: ‘The old drunkard’s mind is not on the wine but on the hills and streams.’ At Yangzhou he built the Pingshan Hall; arriving at Yingzhou in 1049 he fell for the place and resolved to retire there."},
+     "poems": ["醉翁亭记", "丰乐亭记", "朝中措·送刘仲原甫出守维扬"]},
+    {"years": [1054, 1066], "title": {"zh": "文坛宗主", "en": "Head of the literary world"},
+     "text": {"zh": "1054 年回朝，修《新唐书》。1055 年出使契丹。1057 年主持礼部考试，力排浮靡文风，录取苏轼、苏辙、曾巩等人。此后官至枢密副使、参知政事。",
+              "en": "Back at court in 1054, he worked on the New Tang History, and in 1055 went on an embassy to the Khitan Liao. As chief examiner in 1057 he failed ornate writing and passed Su Shi, Su Zhe and Zeng Gong. He rose to Vice Commissioner of Military Affairs and Assisting Chief Minister."},
+     "poems": ["秋声赋"]},
+    {"years": [1067, 1072], "title": {"zh": "六一居士", "en": "The Layman of Six Ones"},
+     "text": {"zh": "1067 年因濮议之争外放亳州，后知青州、蔡州，对王安石的青苗法有所抵制。1071 年致仕，回到颍州，自号六一居士：藏书一万卷、金石遗文一千卷、琴一张、棋一局、酒一壶，加上他这个老翁。1072 年去世。",
+              "en": "After a court dispute in 1067 he was sent to Bozhou, then Qingzhou and Caizhou, where he resisted Wang Anshi’s loan policy. Retiring to Yingzhou in 1071 he called himself the Layman of Six Ones: ten thousand books, a thousand inscriptions, a zither, a chess set, a pot of wine, and one old man. He died in 1072."},
+     "poems": ["六一居士传", "采桑子"]}
+  ],
+  "outro": {
+    "zh": "他在滁州写“醉翁之意不在酒”，那年三十九岁。所谓“翁”，其实是自嘲。",
+    "en": "He wrote ‘the old drunkard’s mind is not on the wine’ at thirty-nine. The ‘old man’ was a joke at his own expense."
+  }
+}

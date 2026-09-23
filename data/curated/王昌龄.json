@@ -1,0 +1,39 @@
+{
+  "name": "王昌龄",
+  "intro": {
+    "zh": "王昌龄字少伯，七言绝句写得最好，人称“七绝圣手”。他年轻时到过西北边塞，中年两度被贬，一次到岭南，一次到湘西龙标，最后死于安史之乱中的一次谋杀。",
+    "en": "Wang Changling, courtesy name Shaobo, was the master of the seven-character quatrain. He saw the northwest frontier as a young man, was exiled twice in middle age, once to the far south and once to Longbiao in western Hunan, and was murdered during the An Lushan rebellion."
+  },
+  "birth_note": {
+    "zh": "约 698 年，王昌龄生于京兆长安一带。家境贫寒，年轻时务农为生。",
+    "en": "Wang Changling was born around 698 near Chang’an to a poor family and farmed as a young man."
+  },
+  "stages": [
+    {"years": [708, 721], "title": {"zh": "少年学道", "en": "Studying the Dao"},
+     "text": {"zh": "青年时游历华阴、梁宋一带，又入嵩山学道，过了几年隐居生活。",
+              "en": "As a young man he wandered around Huayin and the Liang–Song region, then spent several years studying Daoism on Mount Song."}},
+    {"years": [722, 726], "title": {"zh": "秦时明月汉时关", "en": "The frontier"},
+     "text": {"zh": "二十多岁北游河东太原、潞州，又西出泾州、萧关，到了今宁夏固原一带。他最有名的边塞诗大多来自这段经历：“秦时明月汉时关，万里长征人未还。”",
+              "en": "In his twenties he went north to Taiyuan and Luzhou, then west past Jingzhou and the Xiao Pass to the Guyuan region of today’s Ningxia. His most famous frontier poems come from these years: ‘The moon of Qin, the passes of Han; ten thousand li of marching, and no one has come home.’"},
+     "poems": ["出塞", "从军行", "塞下曲"]},
+    {"years": [727, 738], "title": {"zh": "进士与汜水尉", "en": "Jinshi, and a county post"},
+     "text": {"zh": "727 年进士及第，任秘书省校书郎。734 年又中博学宏词科，授汜水县尉（今河南荥阳）。",
+              "en": "He passed the jinshi in 727 and joined the palace library. In 734 he passed the placement exam and became sheriff of Sishui (near today’s Xingyang in Henan)."}},
+    {"years": [739, 740], "title": {"zh": "贬岭南", "en": "Exile to the far south"},
+     "text": {"zh": "739 年获罪被贬岭南。南下途中在襄阳与孟浩然相会，在巴陵遇见李白。次年遇赦北归。",
+              "en": "In 739 he was convicted of some fault and exiled to the far south. On the way he met Meng Haoran at Xiangyang and Li Bai at Baling. He was pardoned the following year."},
+     "poems": ["巴陵送李十二"]},
+    {"years": [741, 748], "title": {"zh": "王江宁", "en": "Wang of Jiangning"},
+     "text": {"zh": "北归后任江宁丞，世称“王江宁”。在润州芙蓉楼送别友人：“洛阳亲友如相问，一片冰心在玉壶。”这几年他往来于江宁、润州、苏州、扬州之间。",
+              "en": "Back from exile he became assistant magistrate of Jiangning and was known as Wang of Jiangning. Seeing a friend off at the Hibiscus Tower in Runzhou he wrote: ‘If friends in Luoyang ask after me: a heart of ice in a jade pot.’ He moved between Jiangning, Runzhou, Suzhou and Yangzhou."},
+     "poems": ["芙蓉楼送辛渐", "闺怨", "采莲曲"]},
+    {"years": [749, 757], "title": {"zh": "龙标尉与死于亳州", "en": "Longbiao, and death at Bozhou"},
+     "text": {"zh": "约 748 年再贬龙标尉（今湖南洪江），李白听说后寄诗：“我寄愁心与明月，随君直到夜郎西。”安史之乱爆发后他弃官北归，757 年途经亳州，被刺史闾丘晓杀害。",
+              "en": "Around 748 he was demoted again, to sheriff of Longbiao (today’s Hongjiang in Hunan); hearing the news, Li Bai sent him a poem: ‘I entrust my worried heart to the bright moon, to follow you west of Yelang.’ When the rebellion broke out he left his post for the north, and in 757 was killed at Bozhou by the prefect Lüqiu Xiao."},
+     "poems": ["送柴侍御", "龙标野宴"]}
+  ],
+  "outro": {
+    "zh": "不久之后，唐将张镐以贻误军机的罪名处死闾丘晓。闾丘晓求饶说家有老母，张镐反问：“王昌龄之亲，欲与谁养？”",
+    "en": "Soon afterwards the general Zhang Hao executed Lüqiu Xiao for failing in his duties. When Lüqiu pleaded that he had an aged mother, Zhang asked: ‘And who is to care for Wang Changling’s?’"
+  }
+}

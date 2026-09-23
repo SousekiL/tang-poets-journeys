@@ -1,0 +1,39 @@
+{
+  "name": "刘禹锡",
+  "intro": {
+    "zh": "刘禹锡字梦得，白居易称他“诗豪”。永贞革新失败后，他被贬在外二十三年，朗州、连州、夔州、和州，一处接一处，却始终不肯低头。",
+    "en": "Liu Yuxi, courtesy name Mengde, was called ‘the hero of poetry’ by Bai Juyi. After the Yongzhen reforms failed he spent twenty-three years in provincial exile, Langzhou, Lianzhou, Kuizhou, Hezhou, one after another, and never bowed."
+  },
+  "birth_note": {
+    "zh": "772 年，刘禹锡生于苏州一带，父亲刘绪避安史之乱南迁，在江南任职。他在江南长大，少年时曾向诗僧皎然、灵澈学诗。",
+    "en": "Liu Yuxi was born in 772 in the Suzhou area, where his father had moved to escape the An Lushan rebellion. He grew up in the south and as a youth learned verse from the poet-monks Jiaoran and Lingche."
+  },
+  "stages": [
+    {"years": [790, 804], "title": {"zh": "长安进士，淮南幕府", "en": "Jinshi, and a post in Huainan"},
+     "text": {"zh": "793 年与柳宗元同榜登进士，又中博学宏词科。随后入淮南节度使杜佑幕中掌书记，往来扬州、徐州。803 年回京任监察御史，与柳宗元、韩愈同在御史台。",
+              "en": "He passed the jinshi in 793 alongside Liu Zongyuan, then the placement exam, and served as secretary to Du You, military governor of Huainan, moving between Yangzhou and Xuzhou. In 803 he became a censor in the capital, colleagues with Liu Zongyuan and Han Yu."}},
+    {"years": [805, 814], "title": {"zh": "朗州十年", "en": "Ten years at Langzhou"},
+     "text": {"zh": "805 年参与王叔文主持的永贞革新，失败后贬为朗州司马，在今湖南常德住了十年。他学当地民歌写诗，也写出了一反悲秋传统的“自古逢秋悲寂寥，我言秋日胜春朝”。",
+              "en": "He took part in Wang Shuwen’s Yongzhen reforms of 805 and, when they failed, was banished to Langzhou (today’s Changde) for ten years. He learned local folk songs, and wrote against the whole tradition of autumn melancholy: ‘Since ancient times autumn means sorrow; I say autumn beats spring.’"},
+     "poems": ["秋词", "竹枝词"]},
+    {"years": [815, 820], "title": {"zh": "玄都观桃花，再贬连州", "en": "Peach blossoms, and another exile"},
+     "text": {"zh": "815 年奉召回京，游玄都观写下“玄都观里桃千树，尽是刘郎去后栽”，讥讽新贵，立刻又被外放。原定播州，柳宗元上书请求与他对换，最终改为连州刺史。两人在衡阳分别，再未相见。819 年母亲去世，他扶柩北归。",
+              "en": "Recalled in 815, he visited the Xuandu temple and wrote that its thousand peach trees had ‘all been planted since Master Liu left’, a dig at the new men in power. He was sent away at once, first to remote Bozhou; Liu Zongyuan offered to swap postings and he went to Lianzhou instead. They parted at Hengyang and never met again. His mother died in 819 and he took her coffin north."},
+     "poems": ["元和十年自朗州至京戏赠看花诸君子", "再授连州至衡阳酬柳柳州赠别"]},
+    {"years": [821, 826], "title": {"zh": "夔州、和州", "en": "Kuizhou and Hezhou"},
+     "text": {"zh": "821 年任夔州刺史，模仿巴渝民歌写《竹枝词》：“东边日出西边雨，道是无晴却有晴。”824 年调和州，沿江东下时写《西塞山怀古》。826 年罢任北归，在扬州遇到白居易，答诗：“沉舟侧畔千帆过，病树前头万木春。”",
+              "en": "Prefect of Kuizhou from 821, he wrote Bamboo Branch songs in the local style: ‘Sun in the east, rain in the west; they say it isn’t clear, yet it is.’ Moving down the Yangtze to Hezhou in 824 he wrote Remembering the Past at Xisai Mountain. Leaving office in 826 he met Bai Juyi at Yangzhou and answered him: ‘Past the sunken ship a thousand sails go by; before the sick tree ten thousand trees are in spring.’"},
+     "poems": ["竹枝词", "西塞山怀古", "陋室铭", "酬乐天扬州初逢席上见赠"]},
+    {"years": [827, 835], "title": {"zh": "前度刘郎今又来", "en": "‘Master Liu is back’"},
+     "text": {"zh": "828 年回到长安，再游玄都观，桃树已荡然无存，他又写：“种桃道士归何处，前度刘郎今又来。”此后出任苏州、汝州、同州刺史。",
+              "en": "Back in Chang’an in 828 he revisited the Xuandu temple; the peach trees were gone. ‘Where is the Daoist who planted them? Master Liu is back again.’ He then served as prefect of Suzhou, Ruzhou and Tongzhou."},
+     "poems": ["再游玄都观", "乌衣巷", "石头城"]},
+    {"years": [836, 842], "title": {"zh": "洛阳晚年", "en": "Last years in Luoyang"},
+     "text": {"zh": "836 年以太子宾客分司东都，定居洛阳，与白居易诗酒往来，世称“刘白”。842 年去世，年七十一岁。",
+              "en": "From 836 he held a sinecure in Luoyang and spent his days drinking and trading poems with Bai Juyi. He died in 842, aged seventy-one."}}
+  ],
+  "outro": {
+    "zh": "被贬二十三年，他晚年回头看，写的是“巴山楚水凄凉地，二十三年弃置身”，接着却是“今日听君歌一曲，暂凭杯酒长精神”。",
+    "en": "Looking back on twenty-three years of exile he wrote of ‘the bleak hills of Ba and waters of Chu’, and then: ‘Today, hearing your song, I’ll borrow the wine to lift my spirits.’"
+  }
+}

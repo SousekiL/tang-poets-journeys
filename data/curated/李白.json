@@ -1,0 +1,130 @@
+{
+  "name": "李白",
+  "intro": {
+    "zh": "李白字太白，号青莲居士。他的一生几乎就是一张地图：蜀中长大，二十四五岁出三峡，此后在江汉、齐鲁、长安、吴越之间来回，直到死在当涂。",
+    "en": "Li Bai, courtesy name Taibai, styled the Blue Lotus Layman. His life is practically a map: raised in Sichuan, out through the Three Gorges in his mid-twenties, then back and forth between the middle Yangtze, Shandong, Chang’an and the lower Yangtze until he died at Dangtu."
+  },
+  "birth_note": {
+    "zh": "701 年，李白生于绵州昌明县（今四川江油），随父亲李客在这里长大。关于出生地另有“碎叶”一说，认为他五岁左右才随家迁入蜀中；本图依据数据，从江油说。少年时他读书、击剑、好神仙，常在附近的大匡山读书。",
+    "en": "Li Bai was born in 701 in Changming county of Mianzhou, today’s Jiangyou in Sichuan, and grew up there with his father Li Ke. Another tradition places his birth at Suyab in Central Asia, with the family moving to Sichuan when he was about five; this map follows the data and uses Jiangyou. As a boy he read, fenced, loved Daoist lore, and studied on nearby Mount Dakuang."
+  },
+  "alt_birth": [
+    {
+      "zh": "碎叶", "en": "Suyab",
+      "lat": 42.83, "lng": 75.28,
+      "note": {"zh": "今吉尔吉斯斯坦托克马克附近；一说李白生于此，五岁随家迁蜀", "en": "near Tokmok, Kyrgyzstan; one tradition holds Li Bai was born here and moved to Sichuan at five"}
+    }
+  ],
+  "stages": [
+    {
+      "years": [718, 724],
+      "title": {"zh": "蜀中少年", "en": "A youth in Sichuan"},
+      "text": {
+        "zh": "十八岁前后，他在蜀中各地游历：去梓州跟隐士赵蕤学纵横术，到成都登散花楼，拜见益州长史苏颋，得到“若广之以学，可以相如比肩”的评价；又登峨眉山，访道求仙。这是他离开家乡前的最后几年。",
+        "en": "Around eighteen he roamed Sichuan: he studied statecraft with the recluse Zhao Rui at Zizhou, climbed the Sanhua Tower in Chengdu, and called on the governor Su Ting, who said that with more learning he could rival Sima Xiangru. He climbed Mount Emei in search of immortals. These were his last years at home."
+      },
+      "poems": ["登锦城散花楼", "访戴天山道士不遇"]
+    },
+    {
+      "years": [725, 727],
+      "title": {"zh": "仗剑去国，辞亲远游", "en": "Sword in hand, leaving home"},
+      "text": {
+        "zh": "725 年，他沿岷江、长江东下，出三峡、过荆门，从此再没回过蜀中。在江陵遇见道士司马承祯，被夸有“仙风道骨”；随后游洞庭、庐山、金陵、扬州，据说一年之内散金三十余万。",
+        "en": "In 725 he sailed down the Min and the Yangtze, through the Gorges and past Jingmen, and never returned to Sichuan. At Jiangling the Daoist master Sima Chengzhen told him he had ‘the bones of an immortal’. He went on to Dongting Lake, Mount Lu, Jinling and Yangzhou, reputedly spending three hundred thousand cash in a year."
+      },
+      "poems": ["峨眉山月歌", "渡荆门送别", "望庐山瀑布"]
+    },
+    {
+      "years": [728, 734],
+      "title": {"zh": "酒隐安陆，一入长安", "en": "Settling in Anlu, a first try at Chang’an"},
+      "text": {
+        "zh": "他在安陆娶了前宰相许圉师的孙女，自称“酒隐安陆，蹉跎十年”。约 730 年第一次西入长安，隐居终南山，四处干谒却毫无结果，写下《行路难》。回程经洛阳、襄阳，给荆州长史韩朝宗上书自荐。",
+        "en": "In Anlu he married a granddaughter of the former chief minister Xu Yushi, and later called it ten years ‘hiding in wine’. Around 730 he went to Chang’an for the first time, lived on Mount Zhongnan, and knocked on doors to no effect; the Hard Roads poems date from here. On the way back through Luoyang and Xiangyang he wrote his famous letter of self-recommendation to Han Chaozong."
+      },
+      "poems": ["行路难", "与韩荆州书"]
+    },
+    {
+      "years": [735, 739],
+      "title": {"zh": "太原、嵩山与江汉", "en": "Taiyuan, Mount Song and the middle Yangtze"},
+      "text": {
+        "zh": "应友人元演之邀北游太原，登雁门关；南返后在洛阳、嵩山与元丹丘、岑勋相聚痛饮。739 年舟行洞庭，在巴陵碰上刚被贬往岭南的王昌龄。",
+        "en": "At his friend Yuan Yan’s invitation he went north to Taiyuan and the Yanmen Pass; back south he drank with Yuan Danqiu and Cen Xun at Luoyang and Mount Song. In 739, sailing on Dongting, he ran into Wang Changling at Baling, just exiled to the far south."
+      }
+    },
+    {
+      "years": [740, 741],
+      "title": {"zh": "移家东鲁", "en": "Moving the family to Shandong"},
+      "text": {
+        "zh": "许氏夫人去世后，他带着子女移居东鲁任城（今山东济宁），与孔巢父等人隐于徂徕山，号“竹溪六逸”。",
+        "en": "After his wife died he moved his children to Rencheng in Shandong (today’s Jining), and with Kong Chaofu and others lived as one of the ‘Six Idlers of the Bamboo Stream’ at Mount Culai."
+      }
+    },
+    {
+      "years": [742, 743],
+      "title": {"zh": "奉诏入京，供奉翰林", "en": "Summoned to court"},
+      "text": {
+        "zh": "742 年春游泰山，秋天接到玄宗征召，在南陵告别儿女：“仰天大笑出门去，我辈岂是蓬蒿人。”到长安后，贺知章读他的诗，呼为“谪仙人”。他以翰林供奉身份陪侍宫廷，写《清平调》，却始终没有得到真正的官职。",
+        "en": "He climbed Mount Tai in spring 742; that autumn the emperor summoned him, and he left his children at Nanling laughing at the sky: ‘Am I a man to stay among the weeds?’ In Chang’an He Zhizhang read his work and called him ‘an immortal banished to earth’. He served as a court poet, wrote the Qingping songs, and never got a real post."
+      },
+      "poems": ["南陵别儿童入京", "游泰山", "清平调"]
+    },
+    {
+      "years": [744, 745],
+      "title": {"zh": "赐金放还，李杜相逢", "en": "Sent away with gold, meeting Du Fu"},
+      "text": {
+        "zh": "744 年春，他被“赐金放还”，离开长安。初夏在洛阳结识三十三岁的杜甫，秋天又与杜甫、高适同游梁宋，登吹台、琴台。次年在东鲁石门分手，这是两人最后一次见面。随后他在齐州紫极宫正式受道箓。",
+        "en": "In spring 744 he was ‘given gold and allowed to leave’. In Luoyang that summer he met Du Fu, then 33, and in autumn the two of them and Gao Shi toured the old Liang and Song lands. They parted at Shimen in Shandong the next year and never met again. Soon after he was formally ordained as a Daoist in Jizhou."
+      },
+      "poems": ["鲁郡东石门送杜二甫", "沙丘城下寄杜甫"]
+    },
+    {
+      "years": [746, 752],
+      "title": {"zh": "梦游天姥，漫游吴越梁宋", "en": "Dreaming of Tianmu, wandering east"},
+      "text": {
+        "zh": "746 年离开东鲁南下，留下《梦游天姥吟留别》：“安能摧眉折腰事权贵，使我不得开心颜。”此后数年在越中、金陵、扬州之间往来；又回到梁园，续娶宗氏。752 年北上幽州，亲眼看到安禄山的势力。",
+        "en": "Leaving Shandong in 746 he wrote Dreaming of Mount Tianmu: ‘How could I bow and scrape to the powerful and never smile again?’ For years he moved between Yue, Jinling and Yangzhou, returned to Liangyuan and married Lady Zong. In 752 he went north to Youzhou and saw An Lushan’s power for himself."
+      },
+      "poems": ["梦游天姥吟留别", "将进酒"]
+    },
+    {
+      "years": [753, 755],
+      "title": {"zh": "宣城与秋浦", "en": "Xuancheng and Qiupu"},
+      "text": {
+        "zh": "他晚年最常待的是皖南：宣城敬亭山“相看两不厌”，秋浦“白发三千丈”，泾县桃花潭边还有汪伦踏歌相送。这几年诗写得多而沉郁。",
+        "en": "In his last decade he kept returning to southern Anhui: Jingting Mountain at Xuancheng, which he never tired of looking at; Qiupu, where his white hair grew ‘three thousand zhang’; the Peach Blossom Pool at Jingxian, where Wang Lun saw him off with a song."
+      },
+      "poems": ["独坐敬亭山", "秋浦歌", "赠汪伦"]
+    },
+    {
+      "years": [756, 757],
+      "title": {"zh": "安史之乱，入永王幕", "en": "Rebellion and Prince Yong"},
+      "text": {
+        "zh": "安史之乱爆发，他携宗氏避居庐山。756 年冬，永王李璘率水师东下，三次派人相请，他下山入幕，写《永王东巡歌》。次年永王被肃宗讨平，李白以附逆之罪系于浔阳狱中。",
+        "en": "When the An Lushan rebellion broke out he took refuge on Mount Lu with Lady Zong. In winter 756 Prince Yong, sailing east with his fleet, invited him three times; he joined, and wrote songs for the expedition. The next year the prince was crushed by the new emperor, and Li Bai was jailed at Xunyang as a collaborator."
+      },
+      "poems": ["永王东巡歌"]
+    },
+    {
+      "years": [758, 759],
+      "title": {"zh": "长流夜郎，中途遇赦", "en": "Exiled to Yelang, pardoned on the way"},
+      "text": {
+        "zh": "经宋若思等人营救（相传郭子仪也曾出力）免死，改判长流夜郎。他溯江而上，走了一年多，759 年春在白帝城附近遇赦，立刻掉头东下：“两岸猿声啼不住，轻舟已过万重山。”",
+        "en": "Song Ruosi and others (legend adds Guo Ziyi) saved him from execution, and the sentence became banishment to Yelang in the southwest. He went up the Yangtze for over a year; in spring 759, near Baidi, he was pardoned and turned straight back downstream: ‘the light boat has already passed ten thousand hills.’"
+      },
+      "poems": ["早发白帝城"]
+    },
+    {
+      "years": [760, 762],
+      "title": {"zh": "江夏、豫章到当涂", "en": "Last years, from Jiangxia to Dangtu"},
+      "text": {
+        "zh": "遇赦后他在江夏、岳阳、豫章一带漂泊。761 年听说李光弼出征，六十一岁还想从军，走到半路病倒。最后投靠族叔、当涂县令李阳冰，762 年冬病逝，临终把诗稿托付给他。",
+        "en": "Pardoned, he drifted around Jiangxia, Yueyang and Yuzhang. In 761, aged sixty-one, he set out to join Li Guangbi’s army and fell ill on the road. He ended with his kinsman Li Yangbing, magistrate of Dangtu, and died there in winter 762, leaving him his manuscripts."
+      },
+      "poems": ["临路歌"]
+    }
+  ],
+  "outro": {
+    "zh": "他留下的最后一首诗叫《临路歌》，把自己比作中天折翅的大鹏。这张图上的红线，大约三万多公里，在这份数据收录的唐代诗人里是最长的一条。",
+    "en": "His last poem, Song on Facing the Road, compares himself to a great roc whose wing breaks mid-sky. The red line on this map, tens of thousands of kilometres of it, is the longest of any Tang poet in this dataset."
+  }
+}
