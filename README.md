@@ -50,6 +50,9 @@ attributes the source in the footer and on every poet page.
 
 # 3. basemap: Natural Earth (China-POS admin-0) + China provinces -> topojson
 scripts/build_basemap.sh   # requires ogr2ogr, topojson-server/-simplify
+
+# 4. terrain: Natural Earth "Gray Earth" shaded relief -> assets/terrain.jpg
+python3 scripts/build_terrain.py   # needs Pillow (system python3)
 ```
 
 Curated narratives live in `data/curated/<姓名或 id>.json`; each stage gives a

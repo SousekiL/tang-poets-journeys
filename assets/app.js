@@ -10,12 +10,31 @@
   };
   // China main body (no South China Sea inset). MultiPoint avoids spherical polygon winding issues.
   const CHINA_FRAME = { type: "MultiPoint", coordinates: [[73.5, 39.5], [80, 45], [87, 49.2], [122.5, 53.6], [135, 48.3], [131, 43], [122, 39], [122.5, 25], [109.5, 18.2], [97.5, 21], [85, 27.5]] };
-  const COUNTRY_LABELS = {
-    MNG: [103, 46.5, "蒙古", "Mongolia"], KAZ: [70, 47.5, "哈萨克斯坦", "Kazakhstan"], KGZ: [74.5, 41.6, "吉尔吉斯斯坦", "Kyrgyzstan"],
-    IND: [79, 22, "印度", "India"], VNM: [105.8, 20.6, "越南", "Vietnam"], PRK: [126.8, 40.3, "朝鲜", "N. Korea"],
-    KOR: [128, 36.2, "韩国", "S. Korea"], JPN: [138.5, 36.8, "日本", "Japan"], RUS: [112, 56.5, "俄罗斯", "Russia"],
-    MMR: [96, 21.5, "缅甸", "Myanmar"], NPL: [84, 28.3, "尼泊尔", "Nepal"], PAK: [69.5, 30, "巴基斯坦", "Pakistan"],
+  // City labels use era name (modern name); they fade out as the map zooms in.
+  const CITY_LABELS = {
+    tang: [
+      [108.94, 34.34, "长安", "西安", "Chang'an", "Xi'an"], [112.45, 34.62, "洛阳", "", "Luoyang", ""],
+      [119.41, 32.39, "扬州", "", "Yangzhou", ""], [104.07, 30.66, "益州", "成都", "Yizhou", "Chengdu"],
+      [112.55, 37.87, "太原", "", "Taiyuan", ""], [112.24, 30.33, "江陵", "荆州", "Jiangling", "Jingzhou"],
+      [112.14, 32.04, "襄阳", "", "Xiangyang", ""], [116.4, 39.9, "幽州", "北京", "Youzhou", "Beijing"],
+      [113.26, 23.13, "广州", "", "Guangzhou", ""],
+    ],
+    wudai: [
+      [112.45, 34.62, "洛阳", "", "Luoyang", ""], [114.35, 34.79, "开封", "", "Kaifeng", ""],
+      [118.8, 32.06, "金陵", "南京", "Jinling", "Nanjing"], [108.94, 34.34, "长安", "西安", "Chang'an", "Xi'an"],
+      [104.07, 30.66, "成都", "", "Chengdu", ""], [119.41, 32.39, "扬州", "", "Yangzhou", ""],
+    ],
+    song: [
+      [114.35, 34.79, "汴京", "开封", "Bianjing", "Kaifeng"], [120.16, 30.29, "临安", "杭州", "Lin'an", "Hangzhou"],
+      [112.45, 34.62, "洛阳", "", "Luoyang", ""], [104.07, 30.66, "成都", "", "Chengdu", ""],
+      [120.58, 31.3, "平江", "苏州", "Pingjiang", "Suzhou"], [118.8, 32.06, "江宁", "南京", "Jiangning", "Nanjing"],
+      [119.41, 32.39, "扬州", "", "Yangzhou", ""], [118.68, 24.87, "泉州", "", "Quanzhou", ""],
+      [113.26, 23.13, "广州", "", "Guangzhou", ""],
+    ],
   };
+  // shaded relief image (plate carree), lon 58-142 / lat 8-60 — reprojected per pixel at load
+  const TERRAIN_EXTENT = [58, 8, 142, 60];
+  let terrainImg = null, terrainCv = null, terrainBox = null;
   const reduced = matchMedia("(prefers-reduced-motion: reduce)").matches;
   const $ = (s) => document.querySelector(s);
 
@@ -60,11 +79,6 @@
       .attr("d", geoPath(topojson.mesh(topo, topo.objects.countries, (a, b) => a === b)));
     world.append("path").attr("class", "border")
       .attr("d", geoPath(topojson.mesh(topo, topo.objects.countries, (a, b) => a !== b)));
-    world.append("g").attr("id", "clabels").selectAll("text")
-      .data(Object.values(COUNTRY_LABELS)).join("text")
-      .attr("class", "country-label")
-      .attr("transform", ([x, y]) => `translate(${projection([x, y])})`)
-      .text(([, , zh, en]) => S.lang === "zh" ? zh : en);
   }
 
   function buildRoutePaths() {
@@ -73,6 +87,85 @@
       const path = new Path2D();
       p.route.forEach((ll, i) => { const [x, y] = projection(ll); i ? path.lineTo(x, y) : path.moveTo(x, y); });
       routePaths.set(p.id, path);
+    }
+  }
+
+  // ---------------- terrain ----------------
+  // Sample the plate-carree relief JPEG through projection.invert into an
+  // offscreen canvas that lives in untransformed projected coordinates.
+  function buildTerrain() {
+    terrainCv = null;
+    if (!terrainImg) return;
+    const [lo0, la0, lo1, la1] = TERRAIN_EXTENT;
+    const quad = { type: "Polygon", coordinates: [[[lo0, la1], [lo1, la1], [lo1, la0], [lo0, la0], [lo0, la1]]] };
+    const bb = geoPath.bounds(quad);
+    const SS = 1.5, bw = bb[1][0] - bb[0][0], bh = bb[1][1] - bb[0][1];
+    const w = Math.ceil(bw * SS), h = Math.ceil(bh * SS);
+    const src = document.createElement("canvas");
+    src.width = terrainImg.width; src.height = terrainImg.height;
+    const sctx = src.getContext("2d", { willReadFrequently: true });
+    sctx.drawImage(terrainImg, 0, 0);
+    const sd = sctx.getImageData(0, 0, src.width, src.height).data;
+    // sea-level luminance sampled in the East China Sea
+    const seaL = sd[(Math.round((60 - 28) / 52 * src.height) * src.width + Math.round((122 - 58) / 84 * src.width)) * 4];
+    const cv = document.createElement("canvas");
+    cv.width = w; cv.height = h;
+    const cx = cv.getContext("2d");
+    // land mask: relief only where there is land — keeps the sea clean
+    const mk = document.createElement("canvas");
+    mk.width = w; mk.height = h;
+    const mctx = mk.getContext("2d", { willReadFrequently: true });
+    mctx.translate(-bb[0][0] * SS, -bb[0][1] * SS);
+    mctx.scale(SS, SS);
+    const pg = d3.geoPath(projection).context(mctx);
+    topojson.feature(topo, topo.objects.countries).features.forEach((f) => pg(f));
+    mctx.fill();
+    const md = mctx.getImageData(0, 0, w, h).data;
+    const out = cx.createImageData(w, h);
+    const d = out.data, inv = projection.invert;
+    for (let y = 0; y < h; y++) {
+      const py = bb[0][1] + (y + 0.5) / SS;
+      for (let x = 0; x < w; x++) {
+        const i = (y * w + x) * 4;
+        if (!md[i + 3]) continue;
+        const ll = inv([bb[0][0] + (x + 0.5) / SS, py]);
+        if (!ll || ll[0] < lo0 || ll[0] > lo1 || ll[1] < la0 || ll[1] > la1) continue;
+        const sx = Math.min(src.width - 1, (ll[0] - lo0) / (lo1 - lo0) * src.width) | 0;
+        const sy = Math.min(src.height - 1, (la1 - ll[1]) / (la1 - la0) * src.height) | 0;
+        const dd = sd[(sy * src.width + sx) * 4] - seaL;
+        if (Math.abs(dd) < 5) continue;
+        if (dd < 0) { d[i] = 74; d[i + 1] = 63; d[i + 2] = 47; }      // shadow: dark sepia
+        else { d[i] = 255; d[i + 1] = 252; d[i + 2] = 238; }          // highlight: light paper
+        d[i + 3] = Math.min(120, Math.abs(dd) * 3.4);
+      }
+    }
+    cx.putImageData(out, 0, 0);
+    terrainCv = cv;
+    terrainBox = { x: bb[0][0], y: bb[0][1], w: bw, h: bh };
+    kick();
+  }
+
+  function renderCityLabels(g, scr, tr) {
+    const fade = Math.min(0.85, Math.max(0, 1.9 - tr.k / homeK()));
+    if (fade <= 0.03) return;
+    const cg = g.append("g").attr("class", "city-labels").attr("opacity", fade);
+    const taken = [];
+    for (const [lon, lat, era, mod, eraEn, modEn] of CITY_LABELS[S.dyn] || []) {
+      const [x, y] = scr([lon, lat]);
+      if (x < 0 || x > S.W || y < 0 || y > S.H) continue;
+      const txt = S.lang === "zh"
+        ? (mod && mod !== era ? `${era}（${mod}）` : era)
+        : (modEn && modEn !== eraEn ? `${eraEn} (${modEn})` : eraEn);
+      const w2 = txt.length * (S.lang === "zh" ? 12 : 6.5) + 8;
+      // try right of the dot, then below, then left
+      const cands = [[x + 5, y - 8, x + 5 + w2, y + 8, x + 6, y + 4],
+                     [x + 5, y + 4, x + 5 + w2, y + 18, x + 6, y + 16],
+                     [x - 6 - w2, y - 8, x - 6, y + 8, x - 6 - w2, y + 4]];
+      const hit = cands.find((b) => !taken.some((t) => !(b[2] < t[0] || b[0] > t[2] || b[3] < t[1] || b[1] > t[3])));
+      if (!hit) continue;
+      taken.push(hit);
+      cg.append("circle").attr("class", "city-dot").attr("cx", x).attr("cy", y).attr("r", 1.7);
+      cg.append("text").attr("class", "city-label").attr("x", hit[4]).attr("y", hit[5]).text(txt);
     }
   }
 
@@ -132,12 +225,12 @@
     if (!S.cam) return;
     const tr = transformOf(S.cam);
     world.attr("transform", `translate(${tr.x},${tr.y}) scale(${tr.k})`);
-    world.select("#clabels").selectAll("text").style("font-size", `${11 / tr.k}px`).style("letter-spacing", `${2 / tr.k}px`);
-    world.select(".prov").attr("opacity", tr.k > homeK() * 1.3 ? 1 : 0.55);
+    world.select(".prov").attr("opacity", tr.k > homeK() * 1.3 ? 0.9 : 0.6);
     const sc = S.scene || {};
     drawCanvas(tr, sc);
     const scr = (ll) => { const [x, y] = projection(ll); return [x * tr.k + tr.x, y * tr.k + tr.y]; };
     overlay.selectAll("*").remove();
+    renderCityLabels(overlay.append("g"), scr, tr);
     if (S.mode === "overview") renderOverviewOverlay(sc, scr, now);
     else renderPoetOverlay(sc, scr, now, tr);
     updateScale(tr);
@@ -146,9 +239,10 @@
   function drawCanvas(tr, sc) {
     ctx.setTransform(1, 0, 0, 1, 0, 0);
     ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.setTransform(S.dpr * tr.k, 0, 0, S.dpr * tr.k, S.dpr * tr.x, S.dpr * tr.y);
+    if (terrainCv) ctx.drawImage(terrainCv, terrainBox.x, terrainBox.y, terrainBox.w, terrainBox.h);
     const alpha = sc.canvasAlpha ?? 0.1;
     if (alpha <= 0) return;
-    ctx.setTransform(S.dpr * tr.k, 0, 0, S.dpr * tr.k, S.dpr * tr.x, S.dpr * tr.y);
     ctx.strokeStyle = `rgba(31,27,22,${alpha})`;
     ctx.lineWidth = 0.8 / tr.k;
     ctx.lineJoin = "round";
@@ -166,7 +260,7 @@
     }
     return out;
   }
-  const line = d3.line();
+  const line = d3.line().curve(d3.curveCatmullRom.alpha(0.5));
 
   function renderOverviewOverlay(sc, scr, now) {
     const g = overlay.append("g");
@@ -198,11 +292,20 @@
     const g = overlay.append("g");
     const d = S.draws.get("poet");
     const u = d ? currentDraw(d, now) : sc.upto ?? pts.length - 1;
-    g.append("path").attr("class", "route ghost").attr("d", line(pts)).attr("stroke", color).attr("stroke-width", 1);
-    g.append("path").attr("class", "route").attr("d", line(partial(pts, u)))
-      .attr("stroke", color).attr("stroke-width", 2).attr("stroke-opacity", 0.9);
-
     const [f0, f1] = sc.focus || [-1, -1];
+    g.append("path").attr("class", "route ghost").attr("d", line(pts)).attr("stroke", color).attr("stroke-width", 1);
+    if (f0 > 0) {
+      // road already travelled fades; only the current stage stays strong
+      g.append("path").attr("class", "route").attr("d", line(partial(pts, Math.min(u, f0))))
+        .attr("stroke", color).attr("stroke-width", 1.3).attr("stroke-opacity", 0.28);
+      if (u > f0) {
+        g.append("path").attr("class", "route").attr("d", line(partial(pts.slice(f0), u - f0)))
+          .attr("stroke", color).attr("stroke-width", 2.6).attr("stroke-opacity", 0.95);
+      }
+    } else {
+      g.append("path").attr("class", "route").attr("d", line(partial(pts, u)))
+        .attr("stroke", color).attr("stroke-width", 2).attr("stroke-opacity", 0.9);
+    }
     // layers: future (faint) < visited < focus, so revisited places are not hidden by later ghost dots
     const future = g.append("g"), visitedG = g.append("g"), focusG = g.append("g");
     pts.forEach((p, i) => {
@@ -246,7 +349,9 @@
     for (const i of idx) {
       const s = P.stops[i];
       if (!s) continue;
-      const nm = S.lang === "zh" ? (s.place.modern + (s.place.ancient ? `（${s.place.ancient}）` : "")) : s.place.en;
+      const nm = S.lang === "zh"
+        ? (s.place.ancient && s.place.ancient !== s.place.modern ? `${s.place.ancient}（${s.place.modern}）` : s.place.modern)
+        : (s.place.enAncient && s.place.enAncient !== s.place.enModern ? `${s.place.enAncient} (${s.place.enModern})` : s.place.enModern);
       if (seen.has(nm)) continue;
       const [x, y] = pts[i];
       if (x < F.x0 - 40 || x > S.W || y < F.y0 - 20 || y > S.H) continue;
@@ -363,10 +468,18 @@
   const L = (o) => (o && typeof o === "object" ? (o[S.lang] ?? o.zh) : o) ?? "";
   const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
+  // uniform rule: era name first, modern name in parentheses — 昌明（江油） / Changming (Jiangyou)
+  function eraName(p) {
+    return S.lang === "zh" ? (p.ancient || p.modern) : (p.enAncient || p.enModern);
+  }
   function placeName(s) {
-    return S.lang === "zh"
-      ? esc(s.place.modern + (s.place.ancient ? `（${s.place.ancient}）` : "") + (s.place.spot || ""))
-      : esc(s.place.en);
+    const p = s.place;
+    if (S.lang === "zh") {
+      const nm = p.ancient && p.ancient !== p.modern ? `${p.ancient}（${p.modern}）` : p.modern;
+      return esc(nm + (p.spot || ""));
+    }
+    const nm = p.enAncient && p.enAncient !== p.enModern ? `${p.enAncient} (${p.enModern})` : p.enModern;
+    return esc(nm + (p.enSpot ? ` ${p.enSpot}` : ""));
   }
 
   function poemsHtml(stops, wanted) {
@@ -440,7 +553,7 @@
             const evs = (st.events || []).slice(0, 5).map((e) => `<li>${esc(e)}</li>`).join("");
             body = `${S.lang === "en" ? `<p class="raw-note">${t("rawEn")}</p>` : ""}<ul class="events">${evs}</ul>`;
           }
-          const places = [...new Set(seg.map((s) => (S.lang === "zh" ? s.place.modern : s.place.en.split(" (")[0])))];
+          const places = [...new Set(seg.map((s) => eraName(s.place)))];
           const chips = places.slice(0, 10).map((p) => `<span>${esc(p)}</span>`).join("") + (places.length > 10 ? `<span>${t("moreStops", places.length - 10)}</span>` : "");
           return `<p class="kicker">${t("stageKicker", si + 1, stages.length)}${yrs}${ageTxt}</p><h3>${esc(L(st.title))}</h3>${body}${poemsHtml(seg, st.poems)}<div class="chips">${chips}</div>`;
         },
@@ -458,7 +571,7 @@
       html: () => {
         const who = S.lang === "zh" ? P.name : P.en;
         const outro = P.outro ? `<p>${L(P.outro)}</p>` : "";
-        return `<p class="kicker">${t("endKicker")} · ${lifespan}</p><h3>${esc(t("endTitle", who, S.lang === "zh" ? last.place.modern : last.place.en.split(" (")[0], last.y1 || P.death))}</h3>${outro}
+        return `<p class="kicker">${t("endKicker")} · ${lifespan}</p><h3>${esc(t("endTitle", who, eraName(last.place), last.y1 || P.death))}</h3>${outro}
           <div class="btns"><button class="btn primary" data-act="search">${t("another")}</button><button class="btn" data-act="overview">${t("backOverview")}</button></div>${refs}`;
       },
       enter: () => {
@@ -556,7 +669,7 @@
   addEventListener("resize", () => {
     clearTimeout(resizeTimer);
     resizeTimer = setTimeout(() => {
-      setupProjection(); drawBase(); buildRoutePaths();
+      setupProjection(); drawBase(); buildRoutePaths(); buildTerrain();
       const i = S.active; S.active = -1; S.cam = null; activate(Math.max(0, i));
     }, 200);
   });
@@ -569,14 +682,20 @@
     const loading = document.createElement("div");
     loading.className = "loading"; loading.textContent = t("loading");
     $("#stage").appendChild(loading);
+    const terrainReady = new Promise((res) => {
+      const img = new Image();
+      img.onload = () => res(img);
+      img.onerror = () => res(null);
+      img.src = "assets/terrain.jpg";
+    });
     const [tp, idx] = await Promise.all([
       fetch("data/basemap/basemap.topo.json").then((r) => r.json()),
       fetch("data/poets_index.json").then((r) => r.json()),
     ]);
     loading.remove();
-    topo = tp; S.index = idx;
+    topo = tp; S.index = idx; terrainImg = await terrainReady;
     for (const p of idx) { S.byId.set(p.id, p); if (!S.byName.has(p.name)) S.byName.set(p.name, p); }
-    setupProjection(); drawBase(); buildRoutePaths();
+    setupProjection(); drawBase(); buildRoutePaths(); buildTerrain();
     const pid = +h.get("poet");
     if (pid && S.byId.has(pid)) openPoet(pid, false); else openOverview(false);
   }

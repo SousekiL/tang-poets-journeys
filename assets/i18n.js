@@ -25,7 +25,7 @@ window.I18N = {
     choose: "选一位诗人",
     poemsOf: "作品",
     outOf: "",
-    colophon: '数据：<a href="https://cnkgraph.com/Map/PoetLife" target="_blank" rel="noopener">唐宋文学编年地图</a>（搜韵 · cnkgraph.com，仅作非商业研究与学习用途）。重点诗人的阶段文字系据该数据及通行年谱改写、扩充；其余诗人为数据条目摘要。行迹坐标为今地名所在地，连线为直线示意，不代表实际路线。底图：Natural Earth（中国视角版）与阿里云 DataV 省级界线，国界依中国立场绘制。',
+    colophon: '数据：<a href="https://cnkgraph.com/Map/PoetLife" target="_blank" rel="noopener">唐宋文学编年地图</a>（搜韵 · cnkgraph.com，仅作非商业研究与学习用途）。重点诗人的阶段文字系据该数据及通行年谱改写、扩充；其余诗人为数据条目摘要。行迹坐标为今地名所在地，连线仅作示意，不代表实际路线。',
     featuredLabel: "重点诗人",
   },
   en: {
@@ -53,7 +53,7 @@ window.I18N = {
     source: "Data: Chronological Map of Tang–Song Literature (Sou-yun · cnkgraph.com)",
     choose: "Pick a poet",
     poemsOf: "Works",
-    colophon: 'Data: <a href="https://cnkgraph.com/Map/PoetLife" target="_blank" rel="noopener">Chronological Map of Tang–Song Literature</a> (Sou-yun · cnkgraph.com; non-commercial research use). Stage texts for featured poets are rewritten and expanded from that data and standard chronologies; other poets show condensed source entries. Stops are plotted at modern locations and joined by straight lines, not actual roads. Basemap: Natural Earth (China point of view) and DataV provincial lines.',
+    colophon: 'Data: <a href="https://cnkgraph.com/Map/PoetLife" target="_blank" rel="noopener">Chronological Map of Tang–Song Literature</a> (Sou-yun · cnkgraph.com; non-commercial research use). Stage texts for featured poets are rewritten and expanded from that data and standard chronologies; other poets show condensed source entries. Stops are plotted at modern locations and joined schematically, not along actual roads.',
     featuredLabel: "Featured",
   },
 };

@@ -84,8 +84,9 @@ select { padding-right: 24px; appearance: none; background-image: linear-gradien
 .land.cn { fill: var(--land-cn); }
 .border { fill: none; stroke: var(--border); stroke-width: .8; vector-effect: non-scaling-stroke; stroke-linejoin: round; }
 .coast { fill: none; stroke: var(--coast); stroke-width: .6; vector-effect: non-scaling-stroke; }
-.prov { fill: none; stroke: var(--prov); stroke-width: .5; stroke-dasharray: 1.5 2.5; vector-effect: non-scaling-stroke; transition: opacity .5s; }
-.country-label { font: 11px var(--mono); fill: var(--muted); letter-spacing: .18em; text-anchor: middle; text-transform: uppercase; }
+.prov { fill: none; stroke: var(--prov); stroke-width: .55; vector-effect: non-scaling-stroke; transition: opacity .5s; }
+.city-dot { fill: var(--muted); }
+.city-label { font: 11.5px var(--serif); fill: var(--soft); paint-order: stroke; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
 
 .route { fill: none; stroke-linecap: round; stroke-linejoin: round; }
 .route.ghost { stroke-opacity: .18; stroke-dasharray: 2 4; }

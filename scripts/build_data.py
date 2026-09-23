@@ -62,11 +62,13 @@ def pinyin_place(name: str) -> str:
 
 
 def split_place(title: str) -> dict:
-    """'江油（昌明）大匡山' -> modern 江油, ancient 昌明, spot 大匡山."""
+    """'江油（昌明）大匡山' -> modern 江油, ancient 昌明, spot 大匡山. Display: 昌明（江油）."""
     m = re.match(r"^([^（(]+)(?:[（(]([^）)]+)[）)])?(.*)$", title.strip())
     modern, ancient, spot = (m.group(1), m.group(2) or "", m.group(3).strip()) if m else (title, "", "")
+    en_m, en_a, en_s = pinyin_place(modern.strip()), pinyin_place(ancient.strip()), pinyin_place(spot)
+    en = (f"{en_a} ({en_m})" if en_a and en_a != en_m else en_m) + (f" {en_s}" if en_s else "")
     return {"zh": title, "modern": modern.strip(), "ancient": ancient.strip(), "spot": spot,
-            "en": pinyin_place(modern.strip()) + (f" ({pinyin_place(ancient)})" if ancient else "")}
+            "en": en, "enModern": en_m, "enAncient": en_a, "enSpot": en_s}
 
 
 def years(label: str) -> tuple[int | None, int | None]:
