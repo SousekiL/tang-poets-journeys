@@ -83,4 +83,4 @@ scripts/              fetch / build pipelines
 
 ## License
 
-Code (`index.html`, `assets/*.js`, `assets/*.css`, `scripts/`) is released under the [MIT License](LICENSE). The curated stage texts in `data/curated/` and the site copy are © Felix Liu, licensed [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). The itinerary data from 搜韵 / cnkgraph.com is not covered by either license; see the use restrictions under [Data](#data). Vendored libraries in `assets/vendor/` keep their own licenses.
+The source code (markup, styles, scripts and build pipelines) is released under the [MIT License](LICENSE). That grant does **not** cover the written content: the narrative and UI text embedded in `index.html`, `assets/story.js` and `assets/i18n.js`, plus the curated stage texts in `data/curated/`, are © Felix Liu and licensed only under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). The itinerary data from 搜韵 / cnkgraph.com is covered by neither license; see the use restrictions under [Data](#data). Vendored libraries in `assets/vendor/` keep their own licenses.

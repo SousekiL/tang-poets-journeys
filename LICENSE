@@ -1,5 +1,9 @@
 MIT License
 
+Scope: this license covers the source code only. Narrative and UI text
+(in index.html, assets/story.js, assets/i18n.js and data/curated/) is
+licensed separately under CC BY-NC 4.0; see the README.
+
 Copyright (c) 2026 Felix Liu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
