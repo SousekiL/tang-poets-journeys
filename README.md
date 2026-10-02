@@ -80,3 +80,7 @@ data/curated/         hand-written stage texts for featured poets
 data/poets/           generated per-poet data (do not edit)
 scripts/              fetch / build pipelines
 ```
+
+## License
+
+Code (`index.html`, `assets/*.js`, `assets/*.css`, `scripts/`) is released under the [MIT License](LICENSE). The curated stage texts in `data/curated/` and the site copy are © Felix Liu, licensed [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). The itinerary data from 搜韵 / cnkgraph.com is not covered by either license; see the use restrictions under [Data](#data). Vendored libraries in `assets/vendor/` keep their own licenses.
